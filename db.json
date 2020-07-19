@@ -1,0 +1,74 @@
+{
+  "modulo_01": [
+    {
+      "ux": [
+        {
+          "artigos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        },
+        {
+          "videos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        }
+      ],
+      "html": [
+        {
+          "artigos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        },
+        {
+          "videos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        }
+      ]
+    }
+  ],
+  "modulo_02": [
+    {
+      "logica": [
+        {
+          "artigos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        },
+        {
+          "videos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        }
+      ],
+      "javascript": [
+        {
+          "artigos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        },
+        {
+          "videos": [
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/",
+            "https://developer.mozilla.org/en-US/"
+          ]
+        }
+      ]
+    }
+  ]
+}
