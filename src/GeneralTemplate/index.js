@@ -7,16 +7,16 @@ const GeneralTemplate = ({ children }) => {
     <div>
       <nav>
         <div className="nav__container">
-          <img src={logo} alt="logo calma senhora"></img>
+        <a href="#"><img src={logo} alt="logo calma senhora"></img></a>
           <ul>
-            <li>Sobre</li>
-            <li>Guia de Estudo</li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Guia de Estudo</a></li>
           </ul>
         </div>
       </nav>
       {children}
-      <footer>
-        <p>Desenvolvido por <a href="https://github.com/lorena-rabelo" target="blank">Lorena Rabelo</a></p>
+      <footer className="footer">
+        <p>Desenvolvido por <b><a href="https://github.com/lorena-rabelo" target="blank">Lorena Rabelo</a></b></p>
       </footer>
     </div>
   )

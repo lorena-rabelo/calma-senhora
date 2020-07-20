@@ -4,7 +4,7 @@ import './styles.css'
 
 const ModuleNumber = ({number}) => {
   return (
-    <h5>text={number}</h5>
+    <h5>text={`MÓDULO ${number}`}</h5>
   )
 }
 

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.header {
+  background-color: #d283c6;
+  height: 90vh;
+}
+
+.header__ilustration {
+  overflow: hidden; /* Esconde o conteúdo excedente */  
+  z-index: 100;
+  max-height: 1000px;
+  margin-left: -30vw;
+  /* margin-top: -200px; */
+  transform: rotate(30deg)
+}
+
+.header__text {
+  position: absolute;
+  max-width: 400px;
+  margin-left: 50vw;
+  /* margin-right: 10%; */
+  margin-top: 150px;
+}
+
+h1 {
+  font-family: 'Krona One', sans-serif;
+}

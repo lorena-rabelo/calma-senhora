@@ -3,15 +3,35 @@
   max-width: 1100px;
   margin: 0 auto;
   justify-content: space-between;
+  align-content: center;
 }
 
-ul {
-  list-style-type : none;
+nav {
+  background-color: #d283c6;
+  padding-top: 20px;
+}
+
+ul {  
   display: flex;
+  color: #fff;
 }
 
-a {
-  text-decoration: none;
+a {  
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.footer a {
+  font-size: 12px;
+}
+a:last-child {  
+  margin-right: 20px;
 }
 
 footer {
