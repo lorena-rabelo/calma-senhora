@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
-import ModuleTitle from '../ModuleTitle'
-import ModuleNumber from '../ModuleNumber'
+import ModuleTitle from '../../atoms/ModuleTitle'
+import ModuleNumber from '../../atoms/ModuleNumber'
 
 
 const Card = (number,title) => {

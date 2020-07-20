@@ -1,8 +1,8 @@
 import React from 'react'
 import GeneralTemplate from '../../GeneralTemplate'
 import illustration from "../../assets/calma-img.png"
-import TitleSections from '../../Components/TitleSections'
-import Card from '../../../src/Components/Card'
+import TitleSections from '../../components/atoms/TitleSections'
+import Card from '../../../src/components/molecules/Card'
 
 const Home = () => {
   return (
