@@ -1,0 +1,19 @@
+.nav__container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type : none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
