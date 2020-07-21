@@ -2,7 +2,12 @@
   max-width: 730px;
   border: 2px solid #000;
   margin: 0 auto;
+  transition: color .4s;
+  transition: background-color .4s;
 }
 .card__container:hover {
   cursor: pointer;
+  color:#fff;
+  background-color: #000;
+  transition: background-color .4s;  
 }

@@ -2,9 +2,9 @@ import React from 'react'
 import './styles.css'
 
 
-const ModuleTitle = ({title}) => {
+const ModuleTitle = ({nomeModulo}) => {
   return (
-    <h3>text={title}</h3>
+    <h3>{nomeModulo}</h3>
   )
 }
 
