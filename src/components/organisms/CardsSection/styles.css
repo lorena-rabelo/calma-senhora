@@ -7,3 +7,37 @@
   text-align: center;
   margin: 0 autos;
 }
+
+.article__container {
+  width: 230px;
+  height: 150px;
+  background-color: #ccc;
+  padding: 15px;
+  display: flex;
+  justify-content: center; 
+}
+
+.article__nametag {
+  background-color: #ff7676;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  margin-top:-25px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article__text {  
+  line-height: 28px;
+  font-size: 16px;
+ align-self: center;
+}
+
+.article__sec {
+  max-width: 730px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}

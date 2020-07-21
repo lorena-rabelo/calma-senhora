@@ -3,7 +3,6 @@ import Card from '../../molecules/Card'
 import TitleSections from '../../atoms/TitleSections'
 import './styles.css'
 
-
 // const CardsSection = ({ number, nomeModulo }) => {
 //   return (
 //     <div className="section__cards">
@@ -36,6 +35,38 @@ class CardsSection extends Component {
           <Card number="III" nomeModulo="Pré-processadores | Bootstrap | Tecnologias Assistivas | Scrum" />
           <Card number="IV" nomeModulo="Javascript | React" />
         </div>
+        <div className="article__sec">
+
+          <div className="article">
+            <div className="article__nametag">
+              <h3>UX</h3>
+            </div>
+            <div className="article__container">
+
+              <p className="article__text">Título explicativo do link Título explicativo do link Título explicativo do link</p>
+            </div>
+          </div>
+          <div className="article">
+            <div className="article__nametag">
+              <h3>UX</h3>
+            </div>
+            <div className="article__container">
+
+              <p className="article__text">Título explicativo do link Título explicativo do link Título explicativo do link</p>
+            </div>
+          </div>
+          <div className="article">
+            <div className="article__nametag">
+              <h3>UX</h3>
+            </div>
+            <div className="article__container">
+
+              <p className="article__text">Título explicativo do link Título explicativo do link Título explicativo do link</p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     )
   }
