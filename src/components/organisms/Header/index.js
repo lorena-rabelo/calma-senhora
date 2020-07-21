@@ -11,7 +11,7 @@ const Header = () => {
         </h1>
         <p>Ajudando novas desenvolvedoras com um roteiro de estudo baseado em um bootcamp estruturado</p>
       </div>
-      <img src={ illustration }className="header__ilustration"></img>
+      <img src={ illustration }className="header__ilustration" alt="ilustraçao de uma mulher com megafone em direção ao título do projeto"></img>
     </header>
   )
 }

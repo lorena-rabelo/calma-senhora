@@ -1,14 +1,4 @@
-.section__cards {
-  text-align: center;
-  background-color:  #FFC864;
-  padding: 80px 0;
-}
-.cardSection-container {
-  text-align: center;
-  margin: 0 autos;
-}
-
-/* .article__container {
+.article__container {
   width: 230px;
   height: 150px;
   background-color: #ccc;
@@ -33,11 +23,4 @@
   line-height: 28px;
   font-size: 16px;
  align-self: center;
-} */
-
-/* .article__sec {
-  max-width: 730px;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-} */
+}

@@ -7,10 +7,10 @@ const GeneralTemplate = ({ children }) => {
     <div>
       <nav>
         <div className="nav__container">
-        <a href="#"><img src={logo} alt="logo calma senhora"></img></a>
+        <a href="https://github.com/lorena-rabelo"><img src={logo} alt="logo calma senhora"></img></a>
           <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Guia de Estudo</a></li>
+            <li><a href="https://github.com/lorena-rabelo">Sobre</a></li>
+            <li><a href="https://github.com/lorena-rabelo">Guia de Estudo</a></li>
           </ul>
         </div>
       </nav>
