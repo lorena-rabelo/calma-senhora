@@ -4,14 +4,16 @@ import ModuleTitle from '../../atoms/ModuleTitle'
 import ModuleNumber from '../../atoms/ModuleNumber'
 
 
-const Card = ({number,nomeModulo,onClick,index}) => {
+const Card = ({number,nomeModulo,onClick,index,nome}) => {
   return (
+    <>
     <div className="card__container" onClick = {onClick} key={index}>
       <ModuleNumber number={number} />
       <ModuleTitle nomeModulo={nomeModulo} 
-      />
-      
+      {...nome && <p>{nome}</p>}    
+      />      
     </div>
+    </>
   )
 }
 
