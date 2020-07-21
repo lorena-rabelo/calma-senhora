@@ -5,11 +5,13 @@ import './styles.css'
 // import Article from '../../molecules/Article'
 import Api from '../../../services/Api'
 
+
 class CardsSection extends Component {
   constructor() {
     super()
     this.state = {
-      modulos: []
+      modulos: [],
+      nome: ""
     }
   }
 
@@ -24,7 +26,18 @@ class CardsSection extends Component {
     console.log(response.data)
   };
 
-  render() {
+  onClick = (nome) => {
+    console.log("clicou", nome)
+    this.setState({ nome: nome })  
+    this.getMaterial()
+  }
+
+  getMaterial = async () => {
+    const { nome } = this.state;
+    console.log('chamou getMaterial', nome)
+  }
+
+   render() {
     const { modulos } = this.state;
     console.log(this.state)
     return (
@@ -32,10 +45,12 @@ class CardsSection extends Component {
         <TitleSections
           texto="Guia de Estudos" />
         <div className="cardSection-container">
-          {modulos.map(({ numero, nome }) => (
+          {modulos.map(({ id, numero, nome }) => (
             <Card
+              key={id}
               number={numero}
               nomeModulo={nome}
+              onClick={() => this.onClick(nome)}
             />
           ))}
         </div>
