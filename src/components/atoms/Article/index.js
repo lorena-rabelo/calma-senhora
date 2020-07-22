@@ -8,7 +8,7 @@ const Article = ({ aboutLink, link, tag }) => {
         <h3>{tag}</h3>
       </div>
       <div className="article__container">
-        <a href={link} className="article__text">{aboutLink}</a>
+        <a href={link} target="blank" className="article__text">{aboutLink}</a>
       </div>
     </div>
   )

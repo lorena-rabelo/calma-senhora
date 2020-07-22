@@ -18,7 +18,7 @@
           "artigos": [
             {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
             {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "UX","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]        
         }
       ]
@@ -31,17 +31,17 @@
         {
           "name": "logica",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
         },
         {
           "name": "javascript",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
         }
       ]
@@ -54,33 +54,33 @@
         {
           "name": "bootstrap",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            {"tag": "BOOTSTRAP","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "BOOTSTRAP","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "BOOTSTRAP","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
         },
         {
           "name": "scrum",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
         },
         {
             "name": "processadores",
             "artigos": [
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/"
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
             ]
           },
           {
             "name": "assistivas",
             "artigos": [
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/"
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
             ]
           }
       ]
@@ -93,17 +93,17 @@
         {
           "name": "javascript",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
         },
         {
           "name": "react",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
         }
       ]

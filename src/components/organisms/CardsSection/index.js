@@ -15,7 +15,7 @@ class CardsSection extends Component {
       modulos: [],
       materias: [],
       links: [],
-      acaba:""
+      acaba: ""
     }
   }
 
@@ -35,8 +35,8 @@ class CardsSection extends Component {
     await this.setState({ materias: materias });
     console.log(materias)
     this.getMaterial()
-    console.log('modulo1',Modulo1)
-    this.setState({acaba: Modulo1})
+    console.log('modulo1', Modulo1)
+    this.setState({ acaba: Modulo1 })
   }
 
   getMaterial = () => {
@@ -46,10 +46,10 @@ class CardsSection extends Component {
     materias.forEach((item) => {
       console.log(item.artigos)
       teste = item.artigos// content.concat(item.artigos)
-      teste.forEach((item) => 
-      content.push(item))
+      teste.forEach((item) =>
+        content.push(item))
       console.log(teste)
-      this.setState({ links : content });
+      this.setState({ links: content });
     })
     console.log(content)
     console.log(this.state)
@@ -65,20 +65,25 @@ class CardsSection extends Component {
           texto="Guia de Estudos" />
         <div className="cardSection-container">
           {modulos.map(({ id, numero, nome, materias }) => (
-            <Card
-              key={id}
-              number={numero}
-              nomeModulo={nome}
-              onClick={() => this.onClick(materias)} />
+            <>
+              <Card
+                key={id}
+                number={numero}
+                nomeModulo={nome}
+                onClick={() => this.onClick(materias)} />
+
+              <div className="article__sec">
+                {links.map((item) => (
+                  <Article
+                    aboutLink={item.texto}
+                    tag={item.tag}
+                    link={item.link}
+                  />
+                ))}
+              </div>
+            </>
+
           ))}
-          <div className="article__sec">
-             {links.map((item) => (
-              <Article
-               aboutLink={item.texto}
-               tag={item.tag}
-             />             
-            ))} 
-           </div> 
         </div>
 
       </div>
