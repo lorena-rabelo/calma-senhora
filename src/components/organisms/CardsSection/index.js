@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Card from '../../molecules/Card'
 import TitleSections from '../../atoms/TitleSections'
 import './styles.css'
-import Article from '../../molecules/Article'
+import Article from '../../atoms/Article'
 import Api from '../../../services/Api'
 
 
@@ -41,10 +41,10 @@ class CardsSection extends Component {
     materias.forEach((item) => {
       console.log(item.artigos)
       teste = item.artigos// content.concat(item.artigos)
-      teste.forEach((item) => 
-      content.push(item))
+      teste.forEach((item) =>
+        content.push(item.link))
       console.log(teste)
-      this.setState({ links : content });
+      this.setState({ links: content });
     })
     console.log(content)
     console.log(this.state)
@@ -59,22 +59,36 @@ class CardsSection extends Component {
         <TitleSections
           texto="Guia de Estudos" />
         <div className="cardSection-container">
-          {modulos.map(({ id, numero, nome, materias }) => (
-            <Card
-              key={id}
-              number={numero}
-              nomeModulo={nome}
-              onClick={() => this.onClick(materias)} />
-          ))}
-          <div className="article__sec">
-            {/* {links.map((item) => (
+          {modulos.map(({ id, numero, nome, materias },) => (
 
-              // <Article
-              //   aboutLink={item}
-              // />
-              // console.log(item)
-            ))} */}
-          </div>
+            <>
+
+              <Card
+                key={id}
+                number={numero}
+                nomeModulo={nome}
+                onClick={() => this.onClick(materias)}
+              />
+
+             
+              <div className="article__sec">
+                {links.map((item) => (
+                  <Article
+                    aboutLink={item}
+                    tag = {item.tag}
+                  />
+                ))}
+              </div>
+            
+            </>
+          ))}
+          {/* <div className="article__sec">
+             {links.map((item) => (
+              <Article
+               aboutLink={item}
+             />             
+            ))} 
+           </div>  */}
         </div>
 
       </div>

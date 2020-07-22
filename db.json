@@ -8,17 +8,17 @@
         {
           "name": "ux",
           "artigos": [
-            {"texto ": "artigo sobre UX 1", "link": "www.googgle.com"},
-            {"texto ": "artigo sobre UX 1", "link": "www.googgle.com"},
-            {"texto ": "artigo sobre UX 1", "link": "www.googgle.com"}           
+            {"tag": "UX","texto ": "artigo sobre UX 1", "link": "www.googgle.com"},
+            {"tag": "UX","texto ": "artigo sobre UX 1", "link": "www.googgle.com"},
+            {"tag": "UX","texto ": "artigo sobre UX 1", "link": "www.googgle.com"}           
           ]       
         },
         {
           "name": "html",
           "artigos": [
-            {"texto ": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"texto ": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"texto ": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "HTML","texto ": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "HTML","texto ": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "HTML","texto ": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]        
         }
       ]
