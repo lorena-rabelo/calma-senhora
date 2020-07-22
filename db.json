@@ -8,9 +8,9 @@
         {
           "name": "ux",
           "artigos": [
-            "artigo sobre UX 1",
-            "artigo sobre UX 2",
-            "artigo sobre UX 3"
+            {"texto ": "artigo sobre UX 1", "link": "www.googgle.com"},
+            {"texto ": "artigo sobre UX 1", "link": "www.googgle.com"},
+            {"texto ": "artigo sobre UX 1", "link": "www.googgle.com"}           
           ]       
         },
         {

@@ -43,14 +43,15 @@ class CardsSection extends Component {
       teste = item.artigos// content.concat(item.artigos)
       teste.forEach((item) => content.push(item))
       console.log(teste)
+      this.setState({ links : content });
     })
-
     console.log(content)
+    console.log(this.state)
 
   }
 
   render() {
-    const { modulos, materias } = this.state;
+    const { modulos, links } = this.state;
     console.log("O componente foi renderizado")
     return (
       <div className="section__cards">
@@ -65,10 +66,10 @@ class CardsSection extends Component {
               onClick={() => this.onClick(materias)} />
           ))}
           <div className="article__sec">
-            {materias.map((item) => (
+            {links.map((item) => (
 
               <Article
-                aboutLink={""}
+                aboutLink={item}
               />
               // console.log(item)
             ))}
