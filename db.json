@@ -8,17 +8,17 @@
         {
           "name": "ux",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            "artigo sobre UX 1",
+            "artigo sobre UX 2",
+            "artigo sobre UX 3"
           ]       
         },
         {
           "name": "html",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
+            "html html artigo sobre html 1",
+            "html html artigo sobre html 2",
+            "html html artigo sobre html 3"
           ]        
         }
       ]

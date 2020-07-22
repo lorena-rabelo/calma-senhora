@@ -36,13 +36,22 @@ class CardsSection extends Component {
 
   getMaterial = async () => {
 
-    const { materias } = this.state;
+    const { materias, links } = this.state;
     console.log('chamou getMaterial');
-    // materias.map((item) =>    
-    // this.setState({ links : (item.artigos).push }))
-    console.log(materias[0].artigos)
-
+    // materias.forEach 
+    materias.map((item) =>    
+    this.setState({ links : links.concat(item.artigos) }))
+    console.log(this.state);
   }
+  // this.setState(state => {
+  //   const list = state.list.concat(state.value);
+
+  //   return {
+  //     list,
+  //     value: '',
+
+
+
 
   render() {
     const { modulos, materias } = this.state;
