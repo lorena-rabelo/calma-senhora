@@ -27,31 +27,27 @@ class CardsSection extends Component {
     this.setState({ modulos: response.data });
   };
 
-  onClick = async (materias, nome) => {
-    console.log("clicou", materias, nome)
+  onClick = async (materias) => {
+    console.log("clicou", materias)
     await this.setState({ materias: materias });
     console.log(materias)
     this.getMaterial()
   }
 
-  getMaterial = async () => {
-
+  getMaterial = () => {
     const { materias, links } = this.state;
-    console.log('chamou getMaterial');
-    // materias.forEach 
-    materias.map((item) =>    
-    this.setState({ links : links.concat(item.artigos) }))
-    console.log(this.state);
+    let content = []
+    let teste;
+    materias.forEach((item) => {
+      console.log(item.artigos)
+      teste = item.artigos// content.concat(item.artigos)
+      teste.forEach((item) => content.push(item))
+      console.log(teste)
+    })
+
+    console.log(content)
+
   }
-  // this.setState(state => {
-  //   const list = state.list.concat(state.value);
-
-  //   return {
-  //     list,
-  //     value: '',
-
-
-
 
   render() {
     const { modulos, materias } = this.state;
@@ -66,13 +62,13 @@ class CardsSection extends Component {
               key={id}
               number={numero}
               nomeModulo={nome}
-              onClick={() => this.onClick(materias, nome)} />
+              onClick={() => this.onClick(materias)} />
           ))}
           <div className="article__sec">
             {materias.map((item) => (
 
               <Article
-                aboutLink={item.artigos}
+                aboutLink={""}
               />
               // console.log(item)
             ))}
