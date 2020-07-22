@@ -4,6 +4,8 @@ import TitleSections from '../../atoms/TitleSections'
 import './styles.css'
 import Article from '../../atoms/Article'
 import Api from '../../../services/Api'
+import Modulo1 from '../../../Modulo1'
+
 
 
 class CardsSection extends Component {
@@ -12,7 +14,8 @@ class CardsSection extends Component {
     this.state = {
       modulos: [],
       materias: [],
-      links: []
+      links: [],
+      acaba:""
     }
   }
 
@@ -32,6 +35,8 @@ class CardsSection extends Component {
     await this.setState({ materias: materias });
     console.log(materias)
     this.getMaterial()
+    console.log('modulo1',Modulo1)
+    this.setState({acaba: Modulo1})
   }
 
   getMaterial = () => {
@@ -41,10 +46,10 @@ class CardsSection extends Component {
     materias.forEach((item) => {
       console.log(item.artigos)
       teste = item.artigos// content.concat(item.artigos)
-      teste.forEach((item) =>
-        content.push(item.link))
+      teste.forEach((item) => 
+      content.push(item))
       console.log(teste)
-      this.setState({ links: content });
+      this.setState({ links : content });
     })
     console.log(content)
     console.log(this.state)
@@ -59,36 +64,21 @@ class CardsSection extends Component {
         <TitleSections
           texto="Guia de Estudos" />
         <div className="cardSection-container">
-          {modulos.map(({ id, numero, nome, materias },) => (
-
-            <>
-
-              <Card
-                key={id}
-                number={numero}
-                nomeModulo={nome}
-                onClick={() => this.onClick(materias)}
-              />
-
-             
-              <div className="article__sec">
-                {links.map((item) => (
-                  <Article
-                    aboutLink={item}
-                    tag = {item.tag}
-                  />
-                ))}
-              </div>
-            
-            </>
+          {modulos.map(({ id, numero, nome, materias }) => (
+            <Card
+              key={id}
+              number={numero}
+              nomeModulo={nome}
+              onClick={() => this.onClick(materias)} />
           ))}
-          {/* <div className="article__sec">
+          <div className="article__sec">
              {links.map((item) => (
               <Article
-               aboutLink={item}
+               aboutLink={item.texto}
+               tag={item.tag}
              />             
             ))} 
-           </div>  */}
+           </div> 
         </div>
 
       </div>
