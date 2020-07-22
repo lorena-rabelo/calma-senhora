@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-
 .header {
   background-color: #d283c6;
   height: 90vh;
 }
 
 .header__ilustration {
-  overflow: hidden; /* Esconde o conteúdo excedente */  
+  overflow: hidden;
+  /* Esconde o conteúdo excedente */
   z-index: 100;
   max-height: 1000px;
   margin-left: -30vw;
@@ -19,9 +19,48 @@
   max-width: 400px;
   margin-left: 50vw;
   /* margin-right: 10%; */
-  margin-top: 150px;
+  margin-top: 25vh;
 }
 
 h1 {
   font-family: 'Krona One', sans-serif;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .header__ilustration {    
+    max-height: 1000px;
+    margin-left: -60vw;
+    margin-top: -200px;
+    transform: rotate(45deg);
+  }
+  .header__text h1 {
+    font-size: 48px
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__ilustration {
+    max-height: 700px;
+    margin-left: -400px;
+    margin-top: 0px;
+    transform: rotate(30deg);
+  }
+  h1 {
+    font-size: 48px
+  }
+  .header__text {    
+    max-width: 300px;   
+    margin-top: 25vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__ilustration {
+    max-height: 700px;
+    margin-left: -500px;
+    margin-top: -200px;
+    transform: rotate(68deg);
+  }
 }

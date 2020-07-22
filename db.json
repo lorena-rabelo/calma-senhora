@@ -1,6 +1,7 @@
 {
   "modulos": [
     {
+      "id": 1,
       "numero": "I",
       "nome": "Introdução ao UX | HTML e CSS | GitHub | Web Design Responsivo",
       "materias": [
@@ -10,12 +11,7 @@
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
-          ]
+          ]       
         },
         {
           "name": "html",
@@ -23,27 +19,18 @@
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
-          ]
+          ]        
         }
       ]
     },
-    {
+    { 
+      "id": 2,
       "numero": "II",
       "nome": "Lógica de Programação | Javascript",
       "materias": [
         {
           "name": "logica",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"
@@ -55,27 +42,18 @@
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
           ]
         }
       ]
     },
     {
+      "id": 3,
       "numero": "III",
       "nome": "Pré-processadores | Bootstrap | Tecnologias Assistivas | Scrum",
       "materias": [
         {
           "name": "bootstrap",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"
@@ -87,21 +65,11 @@
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
           ]
         },
         {
             "name": "processadores",
             "artigos": [
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/"
-            ],
-            "videos": [
               "https://developer.mozilla.org/en-US/",
               "https://developer.mozilla.org/en-US/",
               "https://developer.mozilla.org/en-US/"
@@ -113,16 +81,12 @@
               "https://developer.mozilla.org/en-US/",
               "https://developer.mozilla.org/en-US/",
               "https://developer.mozilla.org/en-US/"
-            ],
-            "videos": [
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/",
-              "https://developer.mozilla.org/en-US/"
             ]
           }
       ]
     },
     {
+      "id": 4,
       "numero": "IV",
       "nome": "Javascript | React",
       "materias": [
@@ -132,21 +96,11 @@
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
           ]
         },
         {
           "name": "react",
           "artigos": [
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/",
-            "https://developer.mozilla.org/en-US/"
-          ],
-          "videos": [
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/",
             "https://developer.mozilla.org/en-US/"

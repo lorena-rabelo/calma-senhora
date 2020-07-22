@@ -6,3 +6,15 @@
 .aboutSection {
   padding: 80px 0;
 }
+
+.aboutSection__container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutSection__container {
+    max-width: 80%;
+    
+  }
+}

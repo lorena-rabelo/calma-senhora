@@ -10,7 +10,7 @@ const Card = ({number,nomeModulo,onClick,index,nome}) => {
     <div className="card__container" onClick = {onClick} key={index}>
       <ModuleNumber number={number} />
       <ModuleTitle nomeModulo={nomeModulo} 
-      {...nome && <p>{nome}</p>}    
+     
       />      
     </div>
     </>

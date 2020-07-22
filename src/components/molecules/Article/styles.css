@@ -5,6 +5,7 @@
   padding: 15px;
   display: flex;
   justify-content: center; 
+  
 }
 
 .article__nametag {
@@ -23,4 +24,5 @@
   line-height: 28px;
   font-size: 16px;
  align-self: center;
+ /* max-width: 90%; */
 }

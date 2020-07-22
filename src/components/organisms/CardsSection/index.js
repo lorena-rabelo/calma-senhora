@@ -11,38 +11,42 @@ class CardsSection extends Component {
     super()
     this.state = {
       modulos: [],
-      materias: []
+      materias: [],
+      links: []
     }
   }
 
   componentDidMount() {
     console.log('Componente foi montado')
     this.loadModulos();
+    console.log(this.state.materias)
   }
 
   loadModulos = async () => {
     const response = await Api.get(`/modulos`);
     this.setState({ modulos: response.data });
-    console.log(response)
-    console.log(response.data)
   };
 
-  onClick = async (materias) => {
-    console.log("clicou", materias)
+  onClick = async (materias, nome) => {
+    console.log("clicou", materias, nome)
     await this.setState({ materias: materias });
-    console.log(this.state.materias)
-    // this.getMaterial()
+    console.log(materias)
+    this.getMaterial()
   }
 
-  // getMaterial = async () => {
-  //   const { nome } = this.state;
-  //   // console.log('chamou getMaterial', nome)
-  //   console.log('chamou getMaterial', nome)
-  // }
+  getMaterial = async () => {
+
+    const { materias } = this.state;
+    console.log('chamou getMaterial');
+    // materias.map((item) =>    
+    // this.setState({ links : (item.artigos).push }))
+    console.log(materias[0].artigos)
+
+  }
 
   render() {
     const { modulos, materias } = this.state;
-    // console.log(this.state)
+    console.log("O componente foi renderizado")
     return (
       <div className="section__cards">
         <TitleSections
@@ -53,10 +57,17 @@ class CardsSection extends Component {
               key={id}
               number={numero}
               nomeModulo={nome}
-              onClick={() => this.onClick(materias)}
-            />
+              onClick={() => this.onClick(materias, nome)} />
           ))}
-          {/* {nome && <p>{nome}</p>} */}
+          <div className="article__sec">
+            {materias.map((item) => (
+
+              <Article
+                aboutLink={item.artigos}
+              />
+              // console.log(item)
+            ))}
+          </div>
         </div>
 
       </div>

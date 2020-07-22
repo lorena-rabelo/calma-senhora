@@ -1,13 +1,19 @@
 .section__cards {
+  
   text-align: center;
   background-color:  #FFC864;
   padding: 80px 0;
 }
 .cardSection-container {
   text-align: center;
-  margin: 0 autos;
+  margin: 60px auto 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .cardSection-container {
+    max-width: 80%;    
+  }
+}
 /* .article__container {
   width: 230px;
   height: 150px;
@@ -35,9 +41,10 @@
  align-self: center;
 } */
 
-/* .article__sec {
+.article__sec {
   max-width: 730px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-} */
+  flex-wrap: wrap;
+}
