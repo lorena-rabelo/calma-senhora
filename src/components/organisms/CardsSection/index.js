@@ -41,7 +41,8 @@ class CardsSection extends Component {
     materias.forEach((item) => {
       console.log(item.artigos)
       teste = item.artigos// content.concat(item.artigos)
-      teste.forEach((item) => content.push(item))
+      teste.forEach((item) => 
+      content.push(item))
       console.log(teste)
       this.setState({ links : content });
     })
@@ -66,13 +67,13 @@ class CardsSection extends Component {
               onClick={() => this.onClick(materias)} />
           ))}
           <div className="article__sec">
-            {links.map((item) => (
+            {/* {links.map((item) => (
 
-              <Article
-                aboutLink={item}
-              />
+              // <Article
+              //   aboutLink={item}
+              // />
               // console.log(item)
-            ))}
+            ))} */}
           </div>
         </div>
 

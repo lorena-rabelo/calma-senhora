@@ -16,9 +16,9 @@
         {
           "name": "html",
           "artigos": [
-            "html html artigo sobre html 1",
-            "html html artigo sobre html 2",
-            "html html artigo sobre html 3"
+            {"texto ": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"texto ": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"texto ": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]        
         }
       ]
