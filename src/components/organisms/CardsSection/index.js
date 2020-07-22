@@ -15,7 +15,9 @@ class CardsSection extends Component {
       modulos: [],
       materias: [],
       links: [],
-      acaba: ""
+      acaba: "",
+      display: false,
+      deusSouEuDeNovo: ""
     }
   }
 
@@ -30,13 +32,13 @@ class CardsSection extends Component {
     this.setState({ modulos: response.data });
   };
 
-  onClick = async (materias) => {
+  onClick = async (materias, id) => {
     console.log("clicou", materias)
     await this.setState({ materias: materias });
     console.log(materias)
     this.getMaterial()
     console.log('modulo1', Modulo1)
-    this.setState({ acaba: Modulo1 })
+    this.setState({ acaba: Modulo1, display: true, deusSouEuDeNovo : id })
   }
 
   getMaterial = () => {
@@ -57,10 +59,22 @@ class CardsSection extends Component {
   }
 
   render() {
-    const { modulos, links } = this.state;
+    const { modulos, links, display, deusSouEuDeNovo } = this.state;
     console.log("O componente foi renderizado")
+
+    let post =
+      (<div className="article__sec">
+        {links.map((item) => (
+          <Article
+            aboutLink={item.texto}
+            tag={item.tag}
+            link={item.link}
+          />
+        ))}
+      </div>)
+
     return (
-      <div className="section__cards">
+      <div className="section__cards" >
         <TitleSections
           texto="Guia de Estudos" />
         <div className="cardSection-container">
@@ -70,22 +84,11 @@ class CardsSection extends Component {
                 key={id}
                 number={numero}
                 nomeModulo={nome}
-                onClick={() => this.onClick(materias)} />
-
-              <div className="article__sec">
-                {links.map((item) => (
-                  <Article
-                    aboutLink={item.texto}
-                    tag={item.tag}
-                    link={item.link}
-                  />
-                ))}
-              </div>
+                onClick={() => this.onClick(materias, id)} />
+              {(display && deusSouEuDeNovo == id) && post}
             </>
-
-          ))}
+          ))}        
         </div>
-
       </div>
     )
   }

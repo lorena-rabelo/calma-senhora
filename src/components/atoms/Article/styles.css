@@ -1,3 +1,7 @@
+.article {
+  margin:40px auto;
+}
+
 .article__container {
   width: 230px;
   height: 150px;
@@ -18,6 +22,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.article__nametag h3 {
+  font-size: 18px;
+  padding-bottom: 10px;
 }
 
 .article__text {  

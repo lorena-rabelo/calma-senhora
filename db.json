@@ -54,33 +54,33 @@
         {
           "name": "bootstrap",
           "artigos": [
-            {"tag": "BOOTSTRAP","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "BOOTSTRAP","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "BOOTSTRAP","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "BOOTS.","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+            {"tag": "BOOTS.","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+            {"tag": "BOOTS.","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
           ]
         },
         {
           "name": "scrum",
           "artigos": [
-            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
           ]
         },
         {
             "name": "processadores",
             "artigos": [
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
             ]
           },
           {
             "name": "assistivas",
             "artigos": [
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
             ]
           }
       ]
@@ -93,16 +93,16 @@
         {
           "name": "javascript",
           "artigos": [
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
           ]
         },
         {
           "name": "react",
           "artigos": [
-            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
             {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
         }
