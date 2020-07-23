@@ -12,10 +12,10 @@ const Header = () => {
           <p>Ajudando novas desenvolvedoras com um roteiro de estudo baseado em um bootcamp estruturado</p>
           <Botao texto = "Ver Roteiro"/>
         </div>      
-      </header>
       <div className="header__ilustration">
         <img src={illustration} alt="ilustraçao de uma mulher com megafone em direção ao título do projeto"></img>
       </div>
+      </header>
     </>
   )
 }
