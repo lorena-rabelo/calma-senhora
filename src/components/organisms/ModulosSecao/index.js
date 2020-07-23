@@ -59,7 +59,7 @@ class ModulosSecao extends Component {
       </div>)
 
     return (
-      <div className="modulos__secao" >
+      <div className="modulos__secao" id="material">
         <TituloSecao
           texto="Guia de Estudos" />
         <div className="modulos__secao--container">

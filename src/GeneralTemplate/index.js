@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, animateScroll as scroll } from "react-scroll";
 import './styles.css'
 import logo from '../assets/logo.svg'
 
@@ -7,10 +8,17 @@ const GeneralTemplate = ({ children }) => {
     <div>
       <nav>
         <div className="nav__container">
-        <a href="https://github.com/lorena-rabelo"><img src={logo} alt="logo calma senhora"></img></a>
+        <Link to="/"><img src={logo} alt="logo calma senhora"></img></Link>
           <ul>
-            <li><a href="https://github.com/lorena-rabelo">Sobre</a></li>
-            <li><a href="https://github.com/lorena-rabelo">Guia de Estudo</a></li>
+            <li>
+              <Link to="sobre" className="link">Sobre</Link>
+              </li>
+            <li>
+            <Link to="material" className="link">Material de Apoio</Link>
+              </li>
+            {/* <li>
+            <Link to="material">Contato</Link>
+              </li> */}
           </ul>
         </div>
       </nav>

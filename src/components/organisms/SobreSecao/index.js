@@ -4,7 +4,7 @@ import './styles.css'
 
 const SobreSecao = ({ texto }) => {
   return (
-    <section className="sobreSecao">
+    <section className="sobreSecao" id="sobre">
       <div className="sobreSecao__container">
         <TituloSecao
           texto="Sobre" />

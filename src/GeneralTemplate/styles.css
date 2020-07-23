@@ -16,10 +16,15 @@ ul {
   color: #fff;
 }
 
-a {  
+.link {  
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.link:hover {  
+  color: #744a6d;   
 }
 
 .footer p {
