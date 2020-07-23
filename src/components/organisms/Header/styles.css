@@ -5,12 +5,21 @@
 }
 
 .header__ilustration {
-   z-index: 100;
-  max-height: 1000px;
-  margin-left: -30vw;
-  /* margin-top: -200px; */
-  transform: rotate(30deg);
-  /* box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25); */
+  position: absolute;
+  z-index: 100;
+  max-height: 100vh;
+  margin-left: -10vw;
+  top: 20px;
+  animation: move 5s linear 2;
+}
+
+@keyframes move {
+  0%, 100% {
+    transform: translateY(30);
+  }
+  50% {
+    transform: translateY(30px);
+  }
 }
 
 .header__text {
@@ -25,10 +34,8 @@ h1 {
   font-family: 'Krona One', sans-serif;
 }
 
-
-
 @media screen and (max-width: 1024px) {
-  .header__ilustration {    
+  .header__ilustration {
     max-height: 1000px;
     margin-left: -60vw;
     margin-top: -200px;
@@ -49,8 +56,8 @@ h1 {
   h1 {
     font-size: 48px
   }
-  .header__text {    
-    max-width: 300px;   
+  .header__text {
+    max-width: 300px;
     margin-top: 25vh;
   }
 }

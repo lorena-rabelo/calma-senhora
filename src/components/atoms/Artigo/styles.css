@@ -1,8 +1,8 @@
-.article {
+.artigo {
   margin:40px auto;
 }
 
-.article__container {
+.artigo__container {
   width: 230px;
   height: 150px;
   background-color: #ccc;
@@ -12,7 +12,7 @@
   
 }
 
-.article__nametag {
+.artigo__tag {
   background-color: #ff7676;
   width: 120px;
   height: 40px;
@@ -24,12 +24,12 @@
   align-items: center;
 }
 
-.article__nametag h3 {
+.artigo__tag h3 {
   font-size: 18px;
   padding-bottom: 10px;
 }
 
-.article__text {  
+.artigo__texto {  
   line-height: 28px;
   font-size: 16px;
  align-self: center;

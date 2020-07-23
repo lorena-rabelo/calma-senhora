@@ -1,17 +1,15 @@
 import React from 'react'
 import GeneralTemplate from '../../GeneralTemplate'
-import AboutSection from '../../components/organisms/AboutSection'
-import CardsSection from '../../components/organisms/CardsSection'
+import SobreSecao from '../../components/organisms/SobreSecao'
+import ModulosSecao from '../../components/organisms/ModulosSecao'
 import Header from '../../components/organisms/Header'
 
 const Home = () => {
   return (
-    <GeneralTemplate>
-      
+    <GeneralTemplate>      
         <Header />
-        <AboutSection />
-        <CardsSection />
-      
+        <SobreSecao />
+        <ModulosSecao />      
     </GeneralTemplate>
   )
 }

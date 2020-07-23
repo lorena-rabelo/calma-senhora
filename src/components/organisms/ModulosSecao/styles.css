@@ -1,16 +1,16 @@
-.section__cards {
-  
+.modulos__secao {  
   text-align: center;
   background-color:  #FFC864;
   padding: 80px 0;
 }
-.cardSection-container {
+
+.modulos__secao--container {
   text-align: center;
   margin: 60px auto 0 auto;
 }
 
 @media screen and (max-width: 768px) {
-  .cardSection-container {
+  .modulos__secao--container {
     max-width: 80%;    
   }
 }
@@ -41,7 +41,7 @@
  align-self: center;
 } */
 
-.article__sec {
+.artigos__secao {
   max-width: 730px;
   display: flex;
   margin: 0 auto;

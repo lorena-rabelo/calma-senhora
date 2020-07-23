@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Card from '../../molecules/Card'
-import TitleSections from '../../atoms/TitleSections'
+import Modulo from '../../molecules/Modulo'
+import TituloSecao from '../../atoms/TituloSecao'
 import './styles.css'
-import Article from '../../atoms/Article'
+import Artigo from '../../atoms/Artigo'
 import Api from '../../../services/Api'
 
 
-class CardsSection extends Component {
+class ModulosSecao extends Component {
   constructor() {
     super()
     this.state = {
@@ -19,21 +19,21 @@ class CardsSection extends Component {
   }
 
   componentDidMount() {    
-    this.loadModulos();  
+    this.carregaModulos();  
   }
 
-  loadModulos = async () => {
+  carregaModulos = async () => {
     const response = await Api.get(`/modulos`);
     this.setState({ modulos: response.data });
   };
 
   onClick = async (materias, id) => {    
     await this.setState({ materias: materias });  
-    this.getMaterial()    
+    this.obterMaterias()    
     this.setState({ display: true, identificacao : id })
   }
 
-  getMaterial = () => {
+  obterMaterias = () => {
     const { materias} = this.state;
     let content = [], teste    
     materias.forEach((item) => {      
@@ -48,10 +48,10 @@ class CardsSection extends Component {
     const { modulos, links, display, identificacao } = this.state;   
 
     let post =
-      (<div className="article__sec">
+      (<div className="artigos__secao">
         {links.map((item) => (
-          <Article
-            aboutLink={item.texto}
+          <Artigo
+            sobreLink={item.texto}
             tag={item.tag}
             link={item.link}
           />
@@ -59,15 +59,15 @@ class CardsSection extends Component {
       </div>)
 
     return (
-      <div className="section__cards" >
-        <TitleSections
+      <div className="modulos__secao" >
+        <TituloSecao
           texto="Guia de Estudos" />
-        <div className="cardSection-container">
+        <div className="modulos__secao--container">
           {modulos.map(({ id, numero, nome, materias }) => (
             <>
-              <Card
+              <Modulo
                 key={id}
-                number={numero}
+                numero={numero}
                 nomeModulo={nome}
                 onClick={() => this.onClick(materias, id)} />
               {(display && identificacao === id) && post}
@@ -80,4 +80,4 @@ class CardsSection extends Component {
 }
 
 
-export default CardsSection
+export default ModulosSecao
