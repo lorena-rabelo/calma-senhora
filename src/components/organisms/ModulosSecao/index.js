@@ -30,7 +30,7 @@ class ModulosSecao extends Component {
   onClick = async (materias, id) => {    
     await this.setState({ materias: materias });  
     this.obterMaterias()    
-    this.setState({ display: true, identificacao : id })
+    this.setState({ display: !this.state.display, identificacao : id })
   }
 
   obterMaterias = () => {
