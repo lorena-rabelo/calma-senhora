@@ -2,8 +2,7 @@ import React from 'react'
 import './styles.css'
 import ModuleTitle from '../../atoms/ModuleTitle'
 import ModuleNumber from '../../atoms/ModuleNumber'
-import Article from '../../atoms/Article/'
-// import Modulo1 from '../../../Modulo1'
+
 
 const Card = ({ number, nomeModulo, onClick, id }) => {
   return (

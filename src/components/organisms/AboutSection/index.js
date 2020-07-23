@@ -2,10 +2,10 @@ import React from 'react'
 import TitleSections from '../../atoms/TitleSections'
 import './styles.css'
 
-const AboutSection = ({ texto }) => {
+const SobreSecao = ({ texto }) => {
   return (
-    <section className="aboutSection">
-      <div className="aboutSection__container">
+    <section className="sobreSecao">
+      <div className="sobreSecao__container">
         <TitleSections
           texto="Sobre" />
         <p>
@@ -16,4 +16,4 @@ const AboutSection = ({ texto }) => {
   )
 }
 
-export default AboutSection
+export default SobreSecao

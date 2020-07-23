@@ -1,19 +1,19 @@
-.aboutSection__container {
+.sobreSecao__container {
   max-width: 920px;
   margin: 0 auto;
 }
 
-.aboutSection {
+.sobreSecao {
   padding: 80px 0;
 }
 
-.aboutSection__container h2 {
+.sobreSecao__container h2 {
   text-align: center;
   margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
-  .aboutSection__container {
+  .sobreSecao__container {
     max-width: 80%;
     
   }

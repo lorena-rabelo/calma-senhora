@@ -4,8 +4,6 @@ import TitleSections from '../../atoms/TitleSections'
 import './styles.css'
 import Article from '../../atoms/Article'
 import Api from '../../../services/Api'
-import Modulo1 from '../../../Modulo1'
-
 
 
 class CardsSection extends Component {
@@ -14,17 +12,14 @@ class CardsSection extends Component {
     this.state = {
       modulos: [],
       materias: [],
-      links: [],
-      acaba: "",
+      links: [],     
       display: false,
-      deusSouEuDeNovo: ""
+      identificacao: ""
     }
   }
 
-  componentDidMount() {
-    console.log('Componente foi montado')
-    this.loadModulos();
-    console.log(this.state.materias)
+  componentDidMount() {    
+    this.loadModulos();  
   }
 
   loadModulos = async () => {
@@ -32,35 +27,25 @@ class CardsSection extends Component {
     this.setState({ modulos: response.data });
   };
 
-  onClick = async (materias, id) => {
-    console.log("clicou", materias)
-    await this.setState({ materias: materias });
-    console.log(materias)
-    this.getMaterial()
-    console.log('modulo1', Modulo1)
-    this.setState({ acaba: Modulo1, display: true, deusSouEuDeNovo : id })
+  onClick = async (materias, id) => {    
+    await this.setState({ materias: materias });  
+    this.getMaterial()    
+    this.setState({ display: true, identificacao : id })
   }
 
   getMaterial = () => {
-    const { materias, links } = this.state;
-    let content = []
-    let teste;
-    materias.forEach((item) => {
-      console.log(item.artigos)
-      teste = item.artigos// content.concat(item.artigos)
+    const { materias} = this.state;
+    let content = [], teste    
+    materias.forEach((item) => {      
+      teste = item.artigos
       teste.forEach((item) =>
-        content.push(item))
-      console.log(teste)
+        content.push(item))     
       this.setState({ links: content });
-    })
-    console.log(content)
-    console.log(this.state)
-
+    })  
   }
 
   render() {
-    const { modulos, links, display, deusSouEuDeNovo } = this.state;
-    console.log("O componente foi renderizado")
+    const { modulos, links, display, identificacao } = this.state;   
 
     let post =
       (<div className="article__sec">
@@ -85,7 +70,7 @@ class CardsSection extends Component {
                 number={numero}
                 nomeModulo={nome}
                 onClick={() => this.onClick(materias, id)} />
-              {(display && deusSouEuDeNovo == id) && post}
+              {(display && identificacao === id) && post}
             </>
           ))}        
         </div>
