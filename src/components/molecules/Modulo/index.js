@@ -4,10 +4,10 @@ import ModuloNome from '../../atoms/ModuloNome'
 import ModuloNumero from '../../atoms/ModuloNumero'
 
 
-const Modulo = ({ numero, nomeModulo, onClick, id }) => {
+const Modulo = ({ numero, nomeModulo, onClick, id, ativo }) => {
   return (
     <>
-      <div className="modulo__container" onClick={onClick} key={id}>
+      <div className= {`modulo__container ${ativo}`} onClick={onClick} key={id}>
         <ModuloNumero numero={numero} />
         <ModuloNome nomeModulo={nomeModulo}
         />

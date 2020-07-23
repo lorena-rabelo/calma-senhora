@@ -5,11 +5,14 @@
 .artigo__container {
   width: 230px;
   height: 150px;
-  background-color: #ccc;
+  background-color: #eee8de;
   padding: 15px;
   display: flex;
-  justify-content: center; 
-  
+  justify-content: center;   
+}
+
+.artigo__container:hover {  
+  background-color: #ebaa3a; 
 }
 
 .artigo__tag {
@@ -22,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform:  rotate(-1deg);
 }
 
 .artigo__tag h3 {

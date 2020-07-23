@@ -14,3 +14,8 @@
   background-color: #000;
   transition: background-color .4s;  
 }
+
+.ativo {
+  color:#fff;
+  background-color: #000;
+}

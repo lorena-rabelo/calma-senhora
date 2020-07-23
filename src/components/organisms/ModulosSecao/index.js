@@ -59,13 +59,14 @@ class ModulosSecao extends Component {
       </div>)
 
     return (
-      <div className="modulos__secao" id="material">
+      <div className="modulos__secao" id="roteiro">
         <TituloSecao
-          texto="Guia de Estudos" />
+          texto="Roteiro de Estudo" />
         <div className="modulos__secao--container">
-          {modulos.map(({ id, numero, nome, materias }) => (
+          {modulos.map(({ id, numero, nome, materias, ativo } ) => (
             <>
               <Modulo
+                 ativo= {ativo}     
                 key={id}
                 numero={numero}
                 nomeModulo={nome}

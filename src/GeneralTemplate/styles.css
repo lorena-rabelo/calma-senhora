@@ -8,23 +8,23 @@
 
 nav {
   background-color: #d283c6;
-  padding-top:30px;
+  padding-top: 30px;
 }
 
-ul {  
+ul {
   display: flex;
   color: #fff;
 }
 
-.link {  
+.link {
   color: #fff;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
 }
 
-.link:hover {  
-  color: #744a6d;   
+.link:hover {
+  color: #744a6d;
 }
 
 .footer p {
@@ -35,10 +35,31 @@ ul {
 .footer a {
   font-size: 12px;
 }
-a:last-child {  
+
+a:last-child {
   margin-right: 20px;
 }
 
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav__container ul {
+    order: -1;
+    margin-left: 15vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__ilustration {
+    max-height: 700px;
+    margin-left: -400px;
+    margin-top: -200px;
+    transform: rotate(35deg);
+  }
+  .header__text {
+    max-width: 300px;
+    margin-top: calc((90vh - 230px) / 2);
+  }
 }

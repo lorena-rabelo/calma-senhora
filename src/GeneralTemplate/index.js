@@ -8,13 +8,13 @@ const GeneralTemplate = ({ children }) => {
     <div>
       <nav>
         <div className="nav__container">
-        <Link to="/"><img src={logo} alt="logo calma senhora"></img></Link>
+        <Link to="/"><img src={logo} alt="logo calma senhora" className="logo"></img></Link>
           <ul>
             <li>
               <Link to="sobre" className="link">Sobre</Link>
               </li>
             <li>
-            <Link to="material" className="link">Material de Apoio</Link>
+            <Link to="roteiro" className="link">Roteiro de Estudo</Link>
               </li>
             {/* <li>
             <Link to="material">Contato</Link>

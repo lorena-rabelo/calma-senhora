@@ -13,14 +13,14 @@
   animation: move 5s linear 2;
 }
 
-@keyframes move {
+/* @keyframes move {
   0%, 100% {
     transform: translateY(30);
   }
   50% {
     transform: translateY(30px);
   }
-}
+} */
 
 .header__text {
   position: absolute;
