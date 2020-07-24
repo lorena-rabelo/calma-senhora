@@ -8,8 +8,9 @@ const GeneralTemplate = ({ children }) => {
     <div>
       <nav>
         <div className="nav__container">
-        <Link to="/"><img src={logo} alt="logo calma senhora" className="logo"></img></Link>
-          <ul>
+      <img src={logo} alt="logo calma senhora" className="logo"></img>
+        <span class="menu-hamburguer" id="menusuperior"></span>
+          <ul className="nav__links">
             <li>
               <Link to="sobre" className="link">Sobre</Link>
               </li>

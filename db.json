@@ -8,16 +8,24 @@
         {
           "name": "ux",
           "artigos": [
-            {"tag": "UX","texto": "artigo sobre UX 1", "link": "www.googgle.com"},
-            {"tag": "UX","texto": "artigo sobre UX 1", "link": "www.googgle.com"},
-            {"tag": "UX","texto": "artigo sobre UX 1", "link": "www.googgle.com"}           
+            {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4"},
+            {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "www.googgle.com"},
+            {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "www.googgle.com"}           
           ]       
         },
         {
           "name": "html",
           "artigos": [
-            {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "HTML","texto": "Uma introdução amigável ao desenvolvimento web", "link": "https://www.internetingishard.com/html-and-css/introduction/"},
+            {"tag": "HTML","texto": "Estruturas básicas da web", "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"},
+            {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+          ]        
+        },
+        {
+          "name": "css",
+          "artigos": [
+            {"tag": "CSS","texto": "Um jogo para aprender CSS flexbox", "link": "https://flexboxfroggy.com/"},
+            {"tag": "CSS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
             {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]        
         }
@@ -78,7 +86,7 @@
           {
             "name": "assistivas",
             "artigos": [
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
+              {"tag": "Acessib.","texto": "Acessibilidade Digital como cultura: Daltonismo e Dislexia", "link": "https://brasil.uxdesign.cc/acessibilidade-digital-como-cultura-daltonismo-e-dislexia-16939161d517"},
               {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
               {"tag": "UX","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
             ]

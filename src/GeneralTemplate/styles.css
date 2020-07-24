@@ -42,6 +42,7 @@ a:last-child {
 
 footer {
   text-align: center;
+  background-color: #EEEFF4;
 }
 
 @media screen and (max-width: 1024px) {
@@ -61,5 +62,54 @@ footer {
   .header__text {
     max-width: 300px;
     margin-top: calc((90vh - 230px) / 2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav__links {
+    display: none;
+  }
+  .logo {
+    margin-left: auto;
+  }
+  .menu-hamburguer {
+    display: block;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    border-top: 4px solid;
+    margin: 20px 0px 8px 5%;
+    float: left;
+    position: absolute;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    z-index: 2;
+    order: -1;
+  }
+  .menu-hamburguer::after, .menu-hamburguer::before {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    background: currentColor;
+    position: relative;
+    transition: transform .2s ease;
+  }
+  .menu-hamburguer.active {
+    border-top-color: transparent;
+    z-index: 200;
+    position: absolute;
+  }
+  .menu-hamburguer.active::after {
+    color: rgb(245, 245, 245);
+    margin-top: 0px;
+    top: 2px;
+    transform: rotate(45deg);
+  }
+  .menu-hamburguer.active::before {
+    color: rgb(245, 245, 245);
+    margin-top: 0px;
+    top: 6px;
+    transform: rotate(135deg);
   }
 }
