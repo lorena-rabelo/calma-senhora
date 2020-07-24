@@ -9,8 +9,7 @@ const SobreSecao = ({ texto }) => {
         <TituloSecao
           texto="Sobre" />
         <p>
-          O projeto consiste em uma plataforma de estudo, que segue o roteiro do bootcamp de front-end da 
-          <b> Reprograma </b>para alunas do bootcamp conseguirem acessar um material de apoio direto, através de vídeos e artigos, e também pessoas que não tenham passado no processo seletivo (ou não poderiam fazê-lo) tenham acesso ao roteiro e alternativas de onde consumir esse conteúdo.          
+          O projeto consiste em uma plataforma de com materiais de estudo, seguindo o roteiro do bootcamp de front-end da <b> Reprograma </b>, para que alunas do bootcamp consigam acessar um material de apoio direto, através de vídeos e artigos, e também pessoas que não tenham passado no processo seletivo (ou não poderiam fazê-lo) tenham acesso ao conteúdo, priorizando textos e vídeos em português.         
           </p>
       </div>
     </section>
