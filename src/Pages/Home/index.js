@@ -11,7 +11,7 @@ const Home = () => {
         <Header />       
         <SobreSecao />
         <ModulosSecao />  
-        {/* <ColaboreSecao />     */}
+        <ColaboreSecao />    
     </GeneralTemplate>
   )
 }

@@ -2,3 +2,13 @@ h2 {
   font-size: 36px;
   padding: 80px 0 40px 0;
 }
+
+
+@media screen and (max-width: 375px) {
+
+h2 {
+
+  max-width: 300px;
+  margin: 0 auto;
+}
+}

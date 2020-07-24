@@ -1,0 +1,21 @@
+.ColaboreSecao {
+  color: #fff;
+  background-color: #000;
+  padding: 80px 0;
+}
+
+.ColaboreSecao h2{
+  margin: 10px 0;
+}
+
+.colabore__container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.colabore--loop {
+  margin: -62px 172px 0;
+}
+.colabore--arrow {
+  margin: -60px 380px 0px;
+}

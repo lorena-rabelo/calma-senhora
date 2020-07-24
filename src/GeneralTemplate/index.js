@@ -16,15 +16,15 @@ const GeneralTemplate = ({ children }) => {
             <li>
             <Link to="roteiro" className="link">Roteiro de Estudo</Link>
               </li>
-            {/* <li>
-            <Link to="material">Contato</Link>
-              </li> */}
+            <li>
+            <Link to="colabore" className="link">Colabore</Link>
+              </li>
           </ul>
         </div>
       </nav>
       {children}
       <footer className="footer">
-        <p>Desenvolvido por <b><a href="https://github.com/lorena-rabelo" target="blank">Lorena Rabelo</a></b></p>
+        <p>Desenvolvido em <b>React</b> por <b><a href="https://github.com/lorena-rabelo" target="blank">Lorena Rabelo</a></b></p>
       </footer>
     </div>
   )
