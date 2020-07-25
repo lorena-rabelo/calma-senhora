@@ -1,8 +1,9 @@
 import React from 'react'
+import './styles.css'
 
 const TituloSecao = ({ texto }) => {
   return (
-    <h2>{texto}</h2>
+    <h2 className="tituloSecao">{texto}</h2>
   )
 }
 
