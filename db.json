@@ -24,13 +24,14 @@
         {
           "name": "css",
           "artigos": [
-            {"tag": "CSS","texto": "Um jogo para aprender CSS flexbox", "link": "https://flexboxfroggy.com/"}         
+            {"tag": "CSS","texto": "Um jogo para aprender CSS flexbox", "link": "https://flexboxfroggy.com/"},     
+            {"tag": "CSS","texto": "Um jogo para aprender seletores CSS (em inglês)", "link": "http://flukeout.github.io/#"}         
           ]        
         },
         {
           "name": "git",
           "artigos": [
-            {"tag": "GIT","texto": "Um jogo para aprender CSS flexbox", "link": "https://dev.to/paulogoncalvesbh/aprenda-conceitos-de-git-nao-comandos-4il3"}
+            {"tag": "GIT","texto": "Aprenda conceitos de git, não comandos", "link": "https://dev.to/paulogoncalvesbh/aprenda-conceitos-de-git-nao-comandos-4il3"}
           ]        
         }
       ]
