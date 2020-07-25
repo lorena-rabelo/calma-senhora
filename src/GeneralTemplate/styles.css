@@ -63,15 +63,6 @@ footer {
     max-width: 300px;
     margin-top: calc((90vh - 230px) / 2);
   }
-}
-
-@media screen and (max-width: 425px) {
-  .nav__links {
-    display: none;
-  }
-  .logo {
-    margin-left: auto;
-  }
   .menu-hamburguer {
     display: block;
     color: #fff;
@@ -112,4 +103,15 @@ footer {
     top: 6px;
     transform: rotate(135deg);
   }
+  .nav__links {
+    display: none;
+  }
+  .logo {
+    margin-left: auto;
+  }
 }
+/* 
+@media screen and (max-width: 425px) {
+
+ 
+} */

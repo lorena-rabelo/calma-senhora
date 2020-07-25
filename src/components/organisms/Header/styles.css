@@ -27,8 +27,7 @@
   position: absolute;
   max-width: 400px;
   margin-left: 50vw;
-  /* margin-right: 10%; */
-  margin-top: 25vh;
+  margin-top: calc((90vh - 311px) / 2);
 }
 
 h1 {
@@ -64,7 +63,7 @@ h1 {
   }
   .header__text {
     max-width: 300px;
-    margin-top: 25vh;
+    /* margin-top: 25vh; */
   }
 }
 
@@ -90,3 +89,4 @@ h1 {
    margin-top: 20px;
   }
 }
+

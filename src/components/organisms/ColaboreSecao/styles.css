@@ -19,10 +19,6 @@
   margin: -62px 172px 0;
 }
 
-/* .colabore--arrow {
-  margin: -90px 180px 0px 340px;
-} */
-
 .colabores--icones {
   max-width: 60px;
   margin: 60px 10px 0;
@@ -39,6 +35,12 @@
   /* flex-grow: 2; */
 }
 
+@media screen and (max-width: 970px) {
+  .colabore__container--arrow-redes {
+    margin-left: -100px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .colabore__container {
     flex-direction: column;
@@ -48,10 +50,13 @@
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    /* flex-grow: 2; */
+    margin-left: 0;
   }
   .colabore--loop {
     display: none;
+  }
+  .colabore__container--arrow-redes a {
+    margin: 0 10px;
   }
 }
 
