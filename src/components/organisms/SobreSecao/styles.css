@@ -18,9 +18,13 @@
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .sobreSecao__container {
-    max-width: 80%;
-    
+    max-width: 80%;    
+  }
+}
+@media screen and (max-width: 425px) {
+  .sobreSecao__container {
+    max-width: 85%;    
   }
 }

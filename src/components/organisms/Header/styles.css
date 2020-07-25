@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 .header {
-  background-color: #d283c6;
+  background-color: #bd7bb3;
   height: 90vh;
   display: flex;
 }
 
 .header__ilustration {
+  /* overflow: hidden; */
   position: absolute;
   z-index: 100;
   max-height: 100vh;
@@ -27,50 +28,61 @@
   position: absolute;
   max-width: 400px;
   margin-left: 50vw;
-  margin-top: calc((90vh - 311px) / 2);
+  margin-top: calc((90vh - 330px) / 2);
 }
 
 h1 {
   font-family: 'Krona One', sans-serif;
 }
 
+@media screen and (max-width: 1280px) {
+  .header__ilustration {
+    margin-left: -28vw;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header__ilustration {
     max-height: 1000px;
-    margin-left: -40vw;
+    margin-left: -45vw;
     margin-top: -200px;
     transform: rotate(20deg);
   }
   .header__text h1 {
     font-size: 48px
   }
-
+  .nav__container ul {
+    align-self: center;
+  }
   .header__ilustration {
-       animation: none;
+    animation: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__ilustration {
-    FONT-WEIGHT: 500px;
-    max-height: 500px;
-    margin-left: -400px;
-    margin-top: -150px;
-    transform: rotate(30deg);
-  }
   h1 {
     font-size: 48px
   }
   .header__text {
-    max-width: 300px;
-    /* margin-top: 25vh; */
+    text-align: center;
+    /* position: absolute; */
+    max-width: 400px;
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    margin-top: calc((90vh - 311px) / 2);
+    justify-content: center;
+    justify-self: center;
+    margin: calc((90vh - 330px) / 2) auto;
+  }
+  .header {
+    justify-content: center;
+  }
+  .header__ilustration {
+    display: none;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .header__ilustration {
-    display: none;
-  }
   .header {
     text-align: center;
   }
@@ -78,15 +90,13 @@ h1 {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    max-width: 90vw;
-    margin-top: 100px;
+    max-width: 80%;
+    margin: calc((90vh - 330px) / 2) auto;
   }
-
-  .header__text h1{
+  .header__text h1 {
     font-size: 36px;
   }
-  .header__text p{
-   margin-top: 20px;
+  .header__text p {
+    margin-top: 20px;
   }
 }
-
