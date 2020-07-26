@@ -9,16 +9,14 @@
           "name": "ux",
           "artigos": [
             {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4"},
-            {"tag": "UX","texto": "Um jogo para entender a importância do UX", "link": "https://userinyerface.com/"},
-            {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "www.googgle.com"}           
+            {"tag": "UX","texto": "Um jogo para entender a importância do UX", "link": "https://userinyerface.com/"}                 
           ]       
         },
         {
           "name": "html",
           "artigos": [
             {"tag": "HTML","texto": "Uma introdução amigável ao desenvolvimento web", "link": "https://www.internetingishard.com/html-and-css/introduction/"},
-            {"tag": "HTML","texto": "Estruturas básicas da web", "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"},
-            {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "HTML","texto": "Estruturas básicas da web", "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"}           
           ]        
         },
         {
