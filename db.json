@@ -9,7 +9,7 @@
           "name": "ux",
           "artigos": [
             {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4"},
-            {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "www.googgle.com"},
+            {"tag": "UX","texto": "Um jogo para entender a importância do UX", "link": "https://userinyerface.com/"},
             {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "www.googgle.com"}           
           ]       
         },
@@ -25,7 +25,8 @@
           "name": "css",
           "artigos": [
             {"tag": "CSS","texto": "Um jogo para aprender CSS flexbox", "link": "https://flexboxfroggy.com/"},     
-            {"tag": "CSS","texto": "Um jogo para aprender seletores CSS (em inglês)", "link": "http://flukeout.github.io/#"}         
+            {"tag": "CSS","texto": "Um jogo para aprender seletores CSS (em inglês)", "link": "http://flukeout.github.io/#"},
+            {"tag": "CSS","texto": "Baixe um navegador que facilita o desenvolvimento responsivo", "link": "https://responsively.app/"}         
           ]        
         },
         {
