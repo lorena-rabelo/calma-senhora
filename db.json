@@ -22,6 +22,9 @@
         {
           "name": "css",
           "artigos": [
+            {"tag": "CSS","texto": "6 Dicas de CSS para iniciantes", "link": "https://medium.com/reprogramabr/6-dicas-de-css-para-iniciantes-5be0c18586f4"},     
+            {"tag": "CSS","texto": "https://medium.com/reprogramabr/5-truques-de-css-que-v%C3%A3o-fazer-a-diferen%C3%A7a-no-seu-site-1e0bba738b78", "link": "5 truques de CSS que vão fazer a diferença no seu site"},     
+            {"tag": "CSS","texto": "Desvendando o segredo: Como usar position relative e absolute", "link": "https://medium.com/reprogramabr/como-usar-position-relative-e-absolut-e-ainda-fazer-um-efeito-legalzinho-usando-apenas-css-5be65633482a"},     
             {"tag": "CSS","texto": "Um jogo para aprender CSS flexbox", "link": "https://flexboxfroggy.com/"},     
             {"tag": "CSS","texto": "Um jogo para aprender seletores CSS (em inglês)", "link": "http://flukeout.github.io/#"},
             {"tag": "CSS","texto": "Baixe um navegador que facilita o desenvolvimento responsivo", "link": "https://responsively.app/"}         
@@ -43,7 +46,7 @@
         {
           "name": "logica",
           "artigos": [
-            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
+            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "http://silentteacher.toxicode.fr/"},
             {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
             {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
           ]
