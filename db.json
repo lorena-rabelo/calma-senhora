@@ -16,7 +16,8 @@
           "name": "html",
           "artigos": [
             {"tag": "HTML","texto": "Uma introdução amigável ao desenvolvimento web", "link": "https://www.internetingishard.com/html-and-css/introduction/"},
-            {"tag": "HTML","texto": "Estruturas básicas da web", "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"}           
+            {"tag": "HTML","texto": "Estruturas básicas da web", "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"},           
+            {"tag": "HTML","texto": "HTML semântico", "link": "https://www.internetingishard.com/html-and-css/semantic-html/"}          
           ]        
         },
         {
@@ -46,17 +47,16 @@
         {
           "name": "logica",
           "artigos": [
-            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "http://silentteacher.toxicode.fr/"},
-            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "LÓGICA","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "LÓGICA","texto": "Como elaborar uma boa lógica de programação", "link": "https://medium.com/reprogramabr/como-elaborar-uma-boa-l%C3%B3gica-de-programa%C3%A7%C3%A3o-632cd4f16dd3"},      
+            {"tag": "LÓGICA","texto": "Um jogo que testa os principais conceitos por trás dos códigos", "link": "http://silentteacher.toxicode.fr/"}
           ]
         },
         {
           "name": "javascript",
           "artigos": [
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"},
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {"tag": "JS","texto": "JavaScript para quem sabe nada de JavaScript", "link": "https://medium.com/reprogramabr/javascript-pra-quem-sabe-nada-de-javascript-16c0d57a8960"},
+            {"tag": "JS","texto": "Entendendo escopos no JavaScript", "link": "https://medium.com/reprogramabr/entendendo-escopos-no-javascript-5cd474c932c3"},
+            {"tag": "JS","texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome", "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"}  
           ]
         }
       ]
@@ -77,9 +77,7 @@
         {
           "name": "scrum",
           "artigos": [
-            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "SCRUM","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
+            {"tag": "SCRUM","texto": "Método SCRUM — Um resumo de tudo o que você precisa saber", "link": "https://medium.com/reprogramabr/scrum-um-breve-resumo-f051e1bc06d9"}           
           ]
         },
         {
