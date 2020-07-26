@@ -8,38 +8,101 @@
         {
           "name": "ux",
           "artigos": [
-            {"tag": "UX","texto": "Os diferentes tipos e funções dos Protótipos", "link": "https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4"},
-            {"tag": "UX","texto": "Um jogo para entender a importância do UX", "link": "https://userinyerface.com/"}                 
-          ]       
+            {
+              "tag": "UX",
+              "texto": "Os diferentes tipos e funções dos Protótipos",
+              "link": "https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4"
+            },
+            {
+              "tag": "UX",
+              "texto": "Um jogo para entender a importância do UX",
+              "link": "https://userinyerface.com/"
+            },
+            {
+              "tag": "UX",
+              "texto": "Aostila | UX E USABILIDADE APLICADOS EM MOBILE E WEB",
+              "link": "https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/"
+            }
+          ]
         },
         {
           "name": "html",
           "artigos": [
-            {"tag": "HTML","texto": "Uma introdução amigável ao desenvolvimento web", "link": "https://www.internetingishard.com/html-and-css/introduction/"},
-            {"tag": "HTML","texto": "Estruturas básicas da web", "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"},           
-            {"tag": "HTML","texto": "HTML semântico", "link": "https://www.internetingishard.com/html-and-css/semantic-html/"}          
-          ]        
+            {
+              "tag": "HTML",
+              "texto": "Uma introdução amigável ao desenvolvimento web",
+              "link": "https://www.internetingishard.com/html-and-css/introduction/"
+            },
+            {
+              "tag": "HTML",
+              "texto": "Estruturas básicas da web",
+              "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"
+            },
+            {
+              "tag": "HTML",
+              "texto": "HTML semântico",
+              "link": "https://www.internetingishard.com/html-and-css/semantic-html/"
+            },
+            {
+              "tag": "HTML",
+              "texto": "Apostila | HTML, CSS e JS | Caelum",
+              "link": "https://www.caelum.com.br/apostila-html-css-javascript/"
+            }
+          ]
         },
         {
           "name": "css",
           "artigos": [
-            {"tag": "CSS","texto": "6 Dicas de CSS para iniciantes", "link": "https://medium.com/reprogramabr/6-dicas-de-css-para-iniciantes-5be0c18586f4"},     
-            {"tag": "CSS","texto": "https://medium.com/reprogramabr/5-truques-de-css-que-v%C3%A3o-fazer-a-diferen%C3%A7a-no-seu-site-1e0bba738b78", "link": "5 truques de CSS que vão fazer a diferença no seu site"},     
-            {"tag": "CSS","texto": "Desvendando o segredo: Como usar position relative e absolute", "link": "https://medium.com/reprogramabr/como-usar-position-relative-e-absolut-e-ainda-fazer-um-efeito-legalzinho-usando-apenas-css-5be65633482a"},     
-            {"tag": "CSS","texto": "Um jogo para aprender CSS flexbox", "link": "https://flexboxfroggy.com/"},     
-            {"tag": "CSS","texto": "Um jogo para aprender seletores CSS (em inglês)", "link": "http://flukeout.github.io/#"},
-            {"tag": "CSS","texto": "Baixe um navegador que facilita o desenvolvimento responsivo", "link": "https://responsively.app/"}         
-          ]        
+            {
+              "tag": "CSS",
+              "texto": "6 Dicas de CSS para iniciantes",
+              "link": "https://medium.com/reprogramabr/6-dicas-de-css-para-iniciantes-5be0c18586f4"
+            },
+            {
+              "tag": "CSS",
+              "texto": "5 truques de CSS que vão fazer a diferença no seu site",
+              "link": "https://medium.com/reprogramabr/5-truques-de-css-que-v%C3%A3o-fazer-a-diferen%C3%A7a-no-seu-site-1e0bba738b78"
+            },
+            {
+              "tag": "CSS",
+              "texto": "Desvendando o segredo: Como usar position relative e absolute",
+              "link": "https://medium.com/reprogramabr/como-usar-position-relative-e-absolut-e-ainda-fazer-um-efeito-legalzinho-usando-apenas-css-5be65633482a"
+            },
+            {
+              "tag": "CSS",
+              "texto": "Um jogo para aprender CSS flexbox",
+              "link": "https://flexboxfroggy.com/"
+            },
+            {
+              "tag": "CSS",
+              "texto": "Guia do Flexbox | Origamid",
+              "link": "https://origamid.com/projetos/flexbox-guia-completo/"
+            },
+            {
+              "tag": "CSS",
+              "texto": "Um jogo para aprender seletores CSS (em inglês)",
+              "link": "http://flukeout.github.io/#"
+            },
+            {
+              "tag": "CSS",
+              "texto": "Baixe um navegador que facilita o desenvolvimento responsivo",
+              "link": "https://responsively.app/"
+            }
+          ]
         },
         {
           "name": "git",
           "artigos": [
-            {"tag": "GIT","texto": "Aprenda conceitos de git, não comandos", "link": "https://dev.to/paulogoncalvesbh/aprenda-conceitos-de-git-nao-comandos-4il3"}
-          ]        
+            {
+              "tag": "GIT",
+              "texto": "Aprenda conceitos de git, não comandos",
+              "link": "https://dev.to/paulogoncalvesbh/aprenda-conceitos-de-git-nao-comandos-4il3"
+            }
+          ]
         }
       ]
     },
-    { 
+    {
       "id": 2,
       "numero": "II",
       "nome": "Lógica de Programação | Javascript",
@@ -47,16 +110,36 @@
         {
           "name": "logica",
           "artigos": [
-            {"tag": "LÓGICA","texto": "Como elaborar uma boa lógica de programação", "link": "https://medium.com/reprogramabr/como-elaborar-uma-boa-l%C3%B3gica-de-programa%C3%A7%C3%A3o-632cd4f16dd3"},      
-            {"tag": "LÓGICA","texto": "Um jogo que testa os principais conceitos por trás dos códigos", "link": "http://silentteacher.toxicode.fr/"}
+            {
+              "tag": "LÓGICA",
+              "texto": "Como elaborar uma boa lógica de programação",
+              "link": "https://medium.com/reprogramabr/como-elaborar-uma-boa-l%C3%B3gica-de-programa%C3%A7%C3%A3o-632cd4f16dd3"
+            },
+            {
+              "tag": "LÓGICA",
+              "texto": "Um jogo que testa os principais conceitos por trás dos códigos",
+              "link": "http://silentteacher.toxicode.fr/"
+            }
           ]
         },
         {
           "name": "javascript",
           "artigos": [
-            {"tag": "JS","texto": "JavaScript para quem sabe nada de JavaScript", "link": "https://medium.com/reprogramabr/javascript-pra-quem-sabe-nada-de-javascript-16c0d57a8960"},
-            {"tag": "JS","texto": "Entendendo escopos no JavaScript", "link": "https://medium.com/reprogramabr/entendendo-escopos-no-javascript-5cd474c932c3"},
-            {"tag": "JS","texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome", "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"}  
+            {
+              "tag": "JS",
+              "texto": "JavaScript para quem sabe nada de JavaScript",
+              "link": "https://medium.com/reprogramabr/javascript-pra-quem-sabe-nada-de-javascript-16c0d57a8960"
+            },
+            {
+              "tag": "JS",
+              "texto": "Entendendo escopos no JavaScript",
+              "link": "https://medium.com/reprogramabr/entendendo-escopos-no-javascript-5cd474c932c3"
+            },
+            {
+              "tag": "JS",
+              "texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome",
+              "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"
+            }
           ]
         }
       ]
@@ -69,33 +152,73 @@
         {
           "name": "bootstrap",
           "artigos": [
-            {"tag": "BOOTS.","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "BOOTS.","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "BOOTS.","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
+            {
+              "tag": "BOOTS.",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "BOOTS.",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "BOOTS.",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            }
           ]
         },
         {
           "name": "scrum",
           "artigos": [
-            {"tag": "SCRUM","texto": "Método SCRUM — Um resumo de tudo o que você precisa saber", "link": "https://medium.com/reprogramabr/scrum-um-breve-resumo-f051e1bc06d9"}           
+            {
+              "tag": "SCRUM",
+              "texto": "Método SCRUM — Um resumo de tudo o que você precisa saber",
+              "link": "https://medium.com/reprogramabr/scrum-um-breve-resumo-f051e1bc06d9"
+            }
           ]
         },
         {
-            "name": "processadores",
-            "artigos": [
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
-            ]
-          },
-          {
-            "name": "assistivas",
-            "artigos": [
-              {"tag": "Acessib.","texto": "Acessibilidade Digital como cultura: Daltonismo e Dislexia", "link": "https://brasil.uxdesign.cc/acessibilidade-digital-como-cultura-daltonismo-e-dislexia-16939161d517"},
-              {"tag": "HTML","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-              {"tag": "UX","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"}  
-            ]
-          }
+          "name": "processadores",
+          "artigos": [
+            {
+              "tag": "HTML",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "HTML",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "UX",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            }
+          ]
+        },
+        {
+          "name": "assistivas",
+          "artigos": [
+            {
+              "tag": "Acessib.",
+              "texto": "Acessibilidade Digital como cultura: Daltonismo e Dislexia",
+              "link": "https://brasil.uxdesign.cc/acessibilidade-digital-como-cultura-daltonismo-e-dislexia-16939161d517"
+            },
+            {
+              "tag": "HTML",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "UX",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            }
+          ]
+        }
       ]
     },
     {
@@ -106,17 +229,41 @@
         {
           "name": "javascript",
           "artigos": [
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "JS","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "JS","texto": "JavaScript antes do framework - 10 dicas", "link": "https://www.youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt"}  
+            {
+              "tag": "JS",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "JS",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "JS",
+              "texto": "JavaScript antes do framework - 10 dicas",
+              "link": "https://www.youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt"
+            }
           ]
         },
         {
           "name": "react",
           "artigos": [
-            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"},
-            {"tag": "REACT","texto": "artigo sobre HTML 1", "link": "www.googgle.com"}  
+            {
+              "tag": "REACT",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "REACT",
+              "texto": "artigo sobre HTML 1",
+              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+            },
+            {
+              "tag": "REACT",
+              "texto": "artigo sobre HTML 1",
+              "link": "www.googgle.com"
+            }
           ]
         }
       ]
