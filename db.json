@@ -47,6 +47,11 @@
               "tag": "HTML",
               "texto": "Apostila | HTML, CSS e JS | Caelum",
               "link": "https://www.caelum.com.br/apostila-html-css-javascript/"
+            },
+            {
+              "tag": "HTML",
+              "texto": "Função Arrastar e soltar nativa do HTML5 (drag and drop)",
+              "link": "https://www.html5rocks.com/pt/tutorials/dnd/basics/"
             }
           ]
         },
@@ -208,14 +213,9 @@
               "link": "https://brasil.uxdesign.cc/acessibilidade-digital-como-cultura-daltonismo-e-dislexia-16939161d517"
             },
             {
-              "tag": "HTML",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            },
-            {
-              "tag": "UX",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+              "tag": "Acessib.",
+              "texto": "Tudo (ou quase tudo) que você deveria ler sobre acessibilidade",
+              "link": "http://acessibilida.de/?source=post_page---------------------------"
             }
           ]
         }
@@ -228,17 +228,7 @@
       "materias": [
         {
           "name": "javascript",
-          "artigos": [
-            {
-              "tag": "JS",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            },
-            {
-              "tag": "JS",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            },
+          "artigos": [        
             {
               "tag": "JS",
               "texto": "JavaScript antes do framework - 10 dicas",
@@ -251,18 +241,13 @@
           "artigos": [
             {
               "tag": "REACT",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+              "texto": "React do zero: componentização, propriedades e estado",
+              "link": "https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/"
             },
             {
               "tag": "REACT",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            },
-            {
-              "tag": "REACT",
-              "texto": "artigo sobre HTML 1",
-              "link": "www.googgle.com"
+              "texto": "React do zero: ciclo de vida, stateless components e arquitetura flux",
+              "link": "https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/"
             }
           ]
         }
@@ -270,3 +255,5 @@
     }
   ]
 }
+
+
