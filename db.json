@@ -47,11 +47,6 @@
               "tag": "HTML",
               "texto": "Apostila | HTML, CSS e JS | Caelum",
               "link": "https://www.caelum.com.br/apostila-html-css-javascript/"
-            },
-            {
-              "tag": "HTML",
-              "texto": "Função Arrastar e soltar nativa do HTML5 (drag and drop)",
-              "link": "https://www.html5rocks.com/pt/tutorials/dnd/basics/"
             }
           ]
         },
@@ -144,6 +139,11 @@
               "tag": "JS",
               "texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome",
               "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"
+            },
+            {
+              "tag": "JS",
+              "texto": "Função Arrastar e soltar nativa do HTML5 (drag and drop)",
+              "link": "https://www.html5rocks.com/pt/tutorials/dnd/basics/"
             }
           ]
         }
