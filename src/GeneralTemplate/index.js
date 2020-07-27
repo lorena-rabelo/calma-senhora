@@ -1,34 +1,55 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
 import './styles.css'
 import logo from '../assets/logo.svg'
 
-const GeneralTemplate = ({ children }) => {
-  return (
-    <div>
-      <nav>
-        <div className="nav__container">
-      <img src={logo} alt="logo calma senhora" className="logo"></img>
-        <span class="menu-hamburguer" id="menusuperior"></span>
-          <ul className="nav__links">
-            <li>
-              <Link to="sobre" className="link">Sobre</Link>
+
+
+
+class GeneralTemplate extends Component {
+  constructor() {
+    super()
+    this.state = {
+      menuVisivel: false
+    };
+  }
+
+
+  toggleActive = () => {
+    this.setState({ menuVisivel: !this.state.menuVisivel })
+  }
+
+
+  render() {
+
+    const { children } = this.props
+    const { menuVisivel } = this.state;
+    return (
+      <div>
+        <nav className={`nav ${menuVisivel && "active"}`}>
+          <div className="nav__container">
+            <img src={logo} alt="logo calma senhora" className={`logo ${menuVisivel && "active"}`}></img>
+            <span class={`menu-hamburguer ${menuVisivel  && "active"}`} onClick={this.toggleActive} ></span>
+            <ul className={`nav__links ${menuVisivel && "active"}`} >
+              <li>
+                <Link to="sobre" className="link" onClick={this.toggleActive}>Sobre</Link>
               </li>
-            <li>
-            <Link to="roteiro" className="link">Roteiro de Estudo</Link>
+              <li>
+                <Link to="roteiro" className="link" onClick={this.toggleActive}>Roteiro de Estudo</Link>
               </li>
-            <li>
-            <Link to="colabore" className="link">Colabore</Link>
+              <li>
+                <Link to="colabore" className="link" onClick={this.toggleActive}>Colabore</Link>
               </li>
-          </ul>
-        </div>
-      </nav>
-      {children}
-      <footer className="footer">
-        <p>Desenvolvido em <b>React</b> por <b><a href="https://github.com/lorena-rabelo" target="blank">Lorena Rabelo</a></b></p>
-      </footer>
-    </div>
-  )
+            </ul>
+          </div>
+        </nav>
+        {children}
+        <footer className="footer">
+          <p>Desenvolvido em <b>React</b> por <b><a href="https://github.com/lorena-rabelo" target="blank">Lorena Rabelo</a></b></p>
+        </footer>
+      </div>
+    )
+  }
 }
 
 export default GeneralTemplate;

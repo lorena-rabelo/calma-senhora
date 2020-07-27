@@ -69,7 +69,7 @@ footer {
     width: 36px;
     height: 36px;
     border-top: 4px solid;
-    margin: 20px 0px 8px 5%;
+    margin: 15px 0px 8px 5%;
     float: left;
     position: absolute;
     cursor: pointer;
@@ -103,15 +103,36 @@ footer {
     top: 6px;
     transform: rotate(135deg);
   }
+  .nav.active {
+    background-color: #85527d;
+  }
   .nav__links {
     display: none;
+  }
+  .nav__container.active {
+    padding: 20px 0;
+  }
+  .nav__links.active {
+    display: block;
+    flex-direction: column;
+    margin: 60px auto;
+  }
+  .nav__links.active a {
+    font-size: 22px;  
+  }
+  .nav__links.active li {
+    margin: 20px auto; 
   }
   .logo {
     margin-left: auto;
   }
+  .logo.active {
+    display: none;
+  }
 }
-/* 
-@media screen and (max-width: 425px) {
 
- 
-} */
+@media screen and (max-width: 425px) {
+  .nav__container {
+    max-width: 90%;
+  }
+}
