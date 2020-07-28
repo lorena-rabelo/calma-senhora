@@ -4,6 +4,7 @@ import TituloSecao from '../../atoms/TituloSecao'
 import './styles.css'
 import Artigo from '../../atoms/Artigo'
 import Api from '../../../services/Api'
+import Repositorios from '../../atoms/Repositorios'
 
 
 class ModulosSecao extends Component {
@@ -14,8 +15,7 @@ class ModulosSecao extends Component {
       materias: [],
       links: [],
       display: false,
-      identificacao: "",
-      repositorios: []
+      identificacao: "",     
     }
   }
 
@@ -31,8 +31,9 @@ class ModulosSecao extends Component {
   onClick = async (materias, id, repositorios) => {
     await this.setState({ materias: materias });
     this.obterMaterias()
-    this.setState({ display: !this.state.display, identificacao: id, repositorios: repositorios })
+    this.setState({ display: !this.state.display, identificacao: id })
     console.log(this.state)
+    console.log(Repositorios)
   }
 
   obterMaterias = () => {
@@ -47,7 +48,7 @@ class ModulosSecao extends Component {
   }
 
   render() {
-    const { modulos, links, display, identificacao, repositorios } = this.state;
+    const { modulos, links, display, identificacao } = this.state;
 
     let post =
       (<div className="artigos__secao">
@@ -59,6 +60,7 @@ class ModulosSecao extends Component {
           />
         ))}
       </div>)
+     
 
     return (
       <div className="modulos__secao" id="roteiro">
@@ -72,8 +74,9 @@ class ModulosSecao extends Component {
                 key={id}
                 numero={numero}
                 nomeModulo={nome}
-                onClick={() => this.onClick(materias, id, repositorios)} />
+                onClick={() => this.onClick(materias, id)} />
               {(display && identificacao === id) && post}
+              {/* <Repositorios /> */}
             </>
           ))}
         </div>
