@@ -65,7 +65,8 @@ class ModulosSecao extends Component {
         <div className="modulos__secao--container">
           {modulos.map(({ id, numero, nome, materias}) => (
             <>
-              <Modulo           
+              <Modulo  
+              className =  {`modulo__container ${(display && identificacao === id) && "active"}`}        
                 key={id}
                 numero={numero}
                 nomeModulo={nome}
