@@ -14,7 +14,8 @@ class ModulosSecao extends Component {
       materias: [],
       links: [],
       display: false,
-      identificacao: ""
+      identificacao: "",
+      repositorios: []
     }
   }
 
@@ -27,10 +28,11 @@ class ModulosSecao extends Component {
     this.setState({ modulos: response.data });
   };
 
-  onClick = async (materias, id) => {
+  onClick = async (materias, id, repositorios) => {
     await this.setState({ materias: materias });
     this.obterMaterias()
-    this.setState({ display: !this.state.display, identificacao: id })
+    this.setState({ display: !this.state.display, identificacao: id, repositorios: repositorios })
+    console.log(this.state)
   }
 
   obterMaterias = () => {
@@ -45,7 +47,7 @@ class ModulosSecao extends Component {
   }
 
   render() {
-    const { modulos, links, display, identificacao } = this.state;
+    const { modulos, links, display, identificacao, repositorios } = this.state;
 
     let post =
       (<div className="artigos__secao">
@@ -70,7 +72,7 @@ class ModulosSecao extends Component {
                 key={id}
                 numero={numero}
                 nomeModulo={nome}
-                onClick={() => this.onClick(materias, id)} />
+                onClick={() => this.onClick(materias, id, repositorios)} />
               {(display && identificacao === id) && post}
             </>
           ))}

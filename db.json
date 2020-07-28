@@ -2,16 +2,6 @@
   "modulos": [
     {
       "id": 1,
-      "repositorios": [
-        {
-          "link": "https://github.com/reprograma/T9-HTML-CSS",
-          "texto": "HTML | CSS"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-responsivo-git",
-          "texto": "Responsivo | Git"
-        }
-      ],
       "numero": "I",
       "nome": "Introdução ao UX | HTML e CSS | GitHub | Web Design Responsivo",
       "materias": [
@@ -119,20 +109,6 @@
     },
     {
       "id": 2,
-      "repositorios": [
-        {
-          "link": "https://github.com/reprograma/T9-logica-e-js",
-          "texto": "Lógica + JS"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-JS-I",
-          "texto": "JavaScript I"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-JS-II",
-          "texto": "JavaScript II"
-        }
-      ],
       "numero": "II",
       "nome": "Lógica de Programação | Javascript",
       "materias": [
@@ -185,16 +161,6 @@
     },
     {
       "id": 3,
-      "repositorios": [
-        {
-          "link": "https://github.com/reprograma/T9-jquery",
-          "texto": "JQuery"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-Bootstrap",
-          "texto": "Bootstrap"
-        }
-      ],
       "numero": "III",
       "nome": "Pré-processadores | Bootstrap | Tecnologias Assistivas | Scrum",
       "materias": [
@@ -262,42 +228,12 @@
     },
     {
       "id": 4,
-      "repositorios": [
-        {
-          "link": "https://github.com/reprograma/T9-JS-III",
-          "texto": "JavaScript III"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-JS-IV",
-          "texto": "JavaScript IV"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-JS-extra",
-          "texto": "JavaScript Extra"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-React-I",
-          "texto": "React I"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-React-II",
-          "texto": "React II"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-React-III",
-          "texto": "React III"
-        },
-        {
-          "link": "https://github.com/reprograma/T9-React-Extra",
-          "texto": "React Extra"
-        }
-      ],
       "numero": "IV",
       "nome": "Javascript | React",
       "materias": [
         {
           "name": "javascript",
-          "artigos": [
+          "artigos": [        
             {
               "tag": "JS",
               "texto": "JavaScript antes do framework - 10 dicas",
@@ -317,7 +253,7 @@
               "tag": "REACT",
               "texto": "React do zero: ciclo de vida, stateless components e arquitetura flux",
               "link": "https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/"
-            },
+            },            
             {
               "tag": "REACT",
               "texto": "Por que acesso direto ao DOM deve ser evitado em projetos com Virtual DOM",
@@ -329,3 +265,5 @@
     }
   ]
 }
+
+
