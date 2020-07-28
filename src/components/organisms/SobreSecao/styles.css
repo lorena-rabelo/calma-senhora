@@ -8,9 +8,16 @@
   background-color: #EEEFF4;
 }
 
-.sobreSecao a{
-  color:#7e459b;
+.sobre-link {
+  color: #7e459b;
   cursor: pointer;
+  z-index: 10000;
+  margin: 0;
+  font-weight: bold; 
+}
+
+.sobre-link:hover {
+  text-decoration: underline;
 }
 
 .sobreSecao__container h2 {
@@ -20,11 +27,12 @@
 
 @media screen and (max-width: 1024px) {
   .sobreSecao__container {
-    max-width: 80%;    
+    max-width: 80%;
   }
 }
+
 @media screen and (max-width: 425px) {
   .sobreSecao__container {
-    max-width: 85%;    
+    max-width: 85%;
   }
 }

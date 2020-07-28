@@ -1,5 +1,5 @@
 .artigo {
-  margin:15px auto;
+  margin: 15px auto 50px;
 }
 
 .artigo__container {
@@ -8,11 +8,13 @@
   background-color: #eee8de;
   padding: 15px;
   display: flex;
-  justify-content: center;   
+  justify-content: center;
 }
 
-.artigo__container:hover {  
-  background-color: #ebaa3a; 
+.artigo__container:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  transition: background-color .2s;
 }
 
 .artigo__tag {
@@ -20,12 +22,12 @@
   width: 120px;
   height: 40px;
   position: absolute;
-  margin-top:-25px;
+  margin-top: -25px;
   margin-left: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform:  rotate(-1deg);
+  transform: rotate(-1deg);
 }
 
 .artigo__tag h3 {
@@ -33,9 +35,13 @@
   padding-bottom: 10px;
 }
 
-.artigo__texto {  
+.artigo__texto {
   line-height: 28px;
   font-size: 16px;
- align-self: center;
- /* max-width: 90%; */
+  align-self: center;
+  /* max-width: 90%; */
+}
+
+.artigo__texto:hover {
+  text-decoration: underline;
 }

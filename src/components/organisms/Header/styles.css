@@ -6,10 +6,10 @@
 }
 
 .header__ilustration {
-  /* overflow: hidden; */
+  overflow: hidden;  
   position: absolute;
   z-index: 100;
-  max-height: 100vh;
+  max-height: 120vh;
   margin-left: -18vw;
   top: 20px;
   animation: move 5s linear 2;

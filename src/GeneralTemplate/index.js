@@ -11,18 +11,16 @@ class GeneralTemplate extends Component {
     super()
     this.state = {
       menuVisivel: false
-    };
+    }
   }
-
 
   toggleActive = () => {
     this.setState({ menuVisivel: !this.state.menuVisivel })
   }
 
-
   render() {
 
-    const { children } = this.props
+    const { children } = this.props;
     const { menuVisivel } = this.state;
     return (
       <div>

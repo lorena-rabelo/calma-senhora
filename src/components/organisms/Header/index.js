@@ -9,7 +9,7 @@ const Header = () => {
       <header className="header">
         <div className="header__text">
           <h1>Calma, senhora</h1>
-          <p>Ajudando novas desenvolvedoras com um roteiro de estudo baseado em um bootcamp estruturado</p>
+          <p>Ajudando novas pessoas desenvolvedoras com um roteiro de estudo baseado em um bootcamp estruturado</p>
           <Botao texto = "Ver Roteiro"/>
         </div>      
       <div className="header__ilustration">

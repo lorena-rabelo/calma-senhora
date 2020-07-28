@@ -21,6 +21,7 @@ ul {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
+  margin-right: 30px;
 }
 
 .link:hover {
@@ -35,10 +36,13 @@ ul {
 .footer a {
   font-size: 12px;
 }
-
-a:last-child {
-  margin-right: 20px;
+.footer a:hover {
+  color: #744a6d;
 }
+
+/* a:last-child {
+  margin-right: 20px;
+} */
 
 footer {
   text-align: center;

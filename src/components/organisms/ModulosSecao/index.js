@@ -12,14 +12,14 @@ class ModulosSecao extends Component {
     this.state = {
       modulos: [],
       materias: [],
-      links: [],     
+      links: [],
       display: false,
       identificacao: ""
     }
   }
 
-  componentDidMount() {    
-    this.carregaModulos();  
+  componentDidMount() {
+    this.carregaModulos();
   }
 
   carregaModulos = async () => {
@@ -27,25 +27,25 @@ class ModulosSecao extends Component {
     this.setState({ modulos: response.data });
   };
 
-  onClick = async (materias, id) => {    
-    await this.setState({ materias: materias });  
-    this.obterMaterias()    
-    this.setState({ display: !this.state.display, identificacao : id })
+  onClick = async (materias, id) => {
+    await this.setState({ materias: materias });
+    this.obterMaterias()
+    this.setState({ display: !this.state.display, identificacao: id })
   }
 
   obterMaterias = () => {
-    const { materias} = this.state;
-    let content = [], teste    
-    materias.forEach((item) => {      
+    const { materias } = this.state;
+    let content = [], teste
+    materias.forEach((item) => {
       teste = item.artigos
       teste.forEach((item) =>
-        content.push(item))     
+        content.push(item))
       this.setState({ links: content });
-    })  
+    })
   }
 
   render() {
-    const { modulos, links, display, identificacao } = this.state;   
+    const { modulos, links, display, identificacao } = this.state;
 
     let post =
       (<div className="artigos__secao">
@@ -63,17 +63,16 @@ class ModulosSecao extends Component {
         <TituloSecao
           texto="Roteiro de Estudo" />
         <div className="modulos__secao--container">
-          {modulos.map(({ id, numero, nome, materias, ativo } ) => (
+          {modulos.map(({ id, numero, nome, materias}) => (
             <>
-              <Modulo
-                 ativo= {ativo}     
+              <Modulo           
                 key={id}
                 numero={numero}
                 nomeModulo={nome}
                 onClick={() => this.onClick(materias, id)} />
               {(display && identificacao === id) && post}
             </>
-          ))}        
+          ))}
         </div>
       </div>
     )

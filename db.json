@@ -20,7 +20,7 @@
             },
             {
               "tag": "UX",
-              "texto": "Apostila | UX e Usabilidade aplicados em mobile e web",
+              "texto": "Apostila | UX e Usabilidade aplicados em mobile e web | Caelum",
               "link": "https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/"
             }
           ]
@@ -85,6 +85,11 @@
             },
             {
               "tag": "CSS",
+              "texto": "Usando Media Queries",
+              "link": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries"
+            },
+            {
+              "tag": "CSS",
               "texto": "Baixe um navegador que facilita o desenvolvimento responsivo",
               "link": "https://responsively.app/"
             }
@@ -127,6 +132,11 @@
           "artigos": [
             {
               "tag": "JS",
+              "texto": "Livro | Você não sabe JavaScript",
+              "link": "https://github.com/cezaraugusto/You-Dont-Know-JS"
+            },
+            {
+              "tag": "JS",
               "texto": "JavaScript para quem sabe nada de JavaScript",
               "link": "https://medium.com/reprogramabr/javascript-pra-quem-sabe-nada-de-javascript-16c0d57a8960"
             },
@@ -159,18 +169,13 @@
           "artigos": [
             {
               "tag": "BOOTS.",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+              "texto": "Site oficial | Bootstrap",
+              "link": "https://getbootstrap.com.br/"
             },
             {
               "tag": "BOOTS.",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            },
-            {
-              "tag": "BOOTS.",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
+              "texto": "Bootstrap: saiba neste guia para iniciantes o que é, por que e como usá-lo",
+              "link": "https://rockcontent.com/blog/bootstrap/"
             }
           ]
         },
@@ -248,6 +253,11 @@
               "tag": "REACT",
               "texto": "React do zero: ciclo de vida, stateless components e arquitetura flux",
               "link": "https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/"
+            },            
+            {
+              "tag": "REACT",
+              "texto": "Por que acesso direto ao DOM deve ser evitado em projetos com Virtual DOM",
+              "link": "https://medium.com/roliveiradev/por-que-getelementbyid-deve-ser-evitado-6b0d35d055fe"
             }
           ]
         }
