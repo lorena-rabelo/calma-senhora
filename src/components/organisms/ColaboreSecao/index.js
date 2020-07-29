@@ -21,7 +21,7 @@ const ColaboreSecao = () => {
           <ul>
             <li><a href="mailto:ola.lorenarabelo@gmail.com"><img src={Mail} className="colabores--icones"></img></a></li>
             <li><a href="https://twitter.com/hi____lorena"><img src={Twitter} className="colabores--icones"></img></a></li>
-            <li><a href="https://github.com/lorena-rabelo/calma-senhora"><img src={Github} className="colabores--icones"></img></a></li>
+            <li><a href="https://github.com/lorena-rabelo/calma-senhora"><img src={Github} className="colabores--icones github"></img></a></li>
           </ul>
         </div>
       </div>

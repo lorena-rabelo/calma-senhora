@@ -21,8 +21,13 @@
 
 .colabores--icones {
   max-width: 60px;
-  margin: 60px 10px 0;
+  margin: 60px 20px 0;
 }
+
+.github {
+  margin: 60px 15px 0;
+}
+
 
 .colabores--icones:hover {
   margin-top: 55px;
