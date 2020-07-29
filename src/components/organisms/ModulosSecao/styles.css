@@ -8,6 +8,30 @@
   text-align: center;
   margin: 60px auto 0 auto;
 }
+.reposReprograma {
+  display: flex;
+  align-content: center;
+  max-width: 730px;  
+  margin: 0 auto;
+}
+.reposReprograma--lista {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  line-height: 25px;
+}
+
+.reposReprograma--links {
+  align-self: center;
+  margin: 0 15px;
+  color: #7e459b;
+  word-wrap: unset;
+  flex-shrink: 0;
+}
+.reposReprograma--links:hover{
+ cursor: pointer;
+ color: #48255a;
+}
 
 @media screen and (max-width: 768px) {
   .modulos__secao--container {

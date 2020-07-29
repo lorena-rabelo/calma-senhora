@@ -4,7 +4,7 @@ import TituloSecao from '../../atoms/TituloSecao'
 import './styles.css'
 import Artigo from '../../atoms/Artigo'
 import Api from '../../../services/Api'
-import Repositorios from '../../atoms/Repositorios'
+import Repositorios from '../../../services/Repositorios'
 
 
 class ModulosSecao extends Component {
@@ -15,12 +15,15 @@ class ModulosSecao extends Component {
       materias: [],
       links: [],
       display: false,
-      identificacao: "",     
+      identificacao: "",
+      github: [],
+      repositorios: []
     }
   }
 
   componentDidMount() {
     this.carregaModulos();
+    this.carregaRepositorios()
   }
 
   carregaModulos = async () => {
@@ -28,12 +31,18 @@ class ModulosSecao extends Component {
     this.setState({ modulos: response.data });
   };
 
-  onClick = async (materias, id, repositorios) => {
+  carregaRepositorios = async () => {
+    const resposta = await Repositorios.get(`/modulos`);
+    this.setState({ github: resposta.data });
+    console.log(this.state)
+  };
+
+  onClick = async (materias, id) => {
     await this.setState({ materias: materias });
     this.obterMaterias()
+    this.obterRepositorios(id)
     this.setState({ display: !this.state.display, identificacao: id })
     console.log(this.state)
-    console.log(Repositorios)
   }
 
   obterMaterias = () => {
@@ -47,8 +56,18 @@ class ModulosSecao extends Component {
     })
   }
 
+  obterRepositorios = (id) => {
+    const { github } = this.state;
+    github.forEach((item) => {
+      (item.numero === id) &&
+        this.setState({ repositorios: item.repositorios });
+    })
+  }
+
+
+
   render() {
-    const { modulos, links, display, identificacao } = this.state;
+    const { modulos, links, display, identificacao, repositorios } = this.state;
 
     let post =
       (<div className="artigos__secao">
@@ -61,23 +80,30 @@ class ModulosSecao extends Component {
         ))}
       </div>)
 
-     let reposReprograma = 
-     (<div><p>`{` Ver repositórios `}`</p></div>)
-     console.log(reposReprograma)
+    let reposReprograma =
+      (<div className="reposReprograma">
+        <h4>Repositórios:</h4>
+        <div className="reposReprograma--lista">
+          {repositorios.map((item) => <h4 className="reposReprograma--links"><a href={item.link}>{item.texto}</a></h4>
+          )}
+        </div>
+      </div>)
+
 
     return (
       <div className="modulos__secao" id="roteiro">
         <TituloSecao
           texto="Roteiro de Estudo" />
         <div className="modulos__secao--container">
-          {modulos.map(({ id, numero, nome, materias}) => (
+          {modulos.map(({ id, numero, nome, materias }) => (
             <>
-              <Modulo  
-              className =  {`modulo__container ${(display && identificacao === id) && "active"}`}        
+              <Modulo
+                className={`modulo__container ${(display && identificacao === id) && "active"}`}
                 key={id}
                 numero={numero}
                 nomeModulo={nome}
                 onClick={() => this.onClick(materias, id)} />
+              {(display && identificacao === id) && reposReprograma}
               {(display && identificacao === id) && post}
               {/* <Repositorios /> */}
             </>

@@ -43,7 +43,7 @@ class GeneralTemplate extends Component {
         </nav>
         {children}
         <footer className="footer">
-          <p>Desenvolvido em <b>React</b> por <b><a href="https://github.com/lorena-rabelo" target="blank">Lorena Rabelo</a></b></p>
+          <p>Desenvolvido em <b>React</b> por <b><a href="https://www.linkedin.com/in/lorena-rabelo/" target="blank">Lorena Rabelo</a></b></p>
         </footer>
       </div>
     )

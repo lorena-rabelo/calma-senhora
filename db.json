@@ -149,11 +149,6 @@
               "tag": "JS",
               "texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome",
               "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"
-            },
-            {
-              "tag": "JS",
-              "texto": "Função Arrastar e soltar nativa do HTML5 (drag and drop)",
-              "link": "https://www.html5rocks.com/pt/tutorials/dnd/basics/"
             }
           ]
         }
@@ -213,7 +208,17 @@
       "materias": [
         {
           "name": "javascript",
-          "artigos": [        
+          "artigos": [              
+            {
+              "tag": "JS",
+              "texto": "Função Arrastar e soltar nativa do HTML5 (drag and drop)",
+              "link": "https://www.html5rocks.com/pt/tutorials/dnd/basics/"
+            },      
+            {
+              "tag": "JS",
+              "texto": "Usando foreach(), map(), filter(), reduce()",
+              "link": "https://talitaoliveira.netlify.app/como-e-quando-usar-foreach-map-filter-reduce/"
+            },      
             {
               "tag": "JS",
               "texto": "JavaScript antes do framework - 10 dicas",
