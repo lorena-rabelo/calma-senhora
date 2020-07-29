@@ -221,6 +221,11 @@
             },      
             {
               "tag": "JS",
+              "texto": "Como usar o Reduce? Convertendo arrays em outros tipos",
+              "link": "https://www.youtube.com/watch?v=O_bSjsLga48&feature=youtu.be"
+            },      
+            {
+              "tag": "JS",
               "texto": "JavaScript antes do framework - 10 dicas",
               "link": "https://www.youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt"
             }
