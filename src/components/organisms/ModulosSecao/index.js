@@ -60,7 +60,10 @@ class ModulosSecao extends Component {
           />
         ))}
       </div>)
-     
+
+     let reposReprograma = 
+     (<div><p>`{` Ver repositórios `}`</p></div>)
+     console.log(reposReprograma)
 
     return (
       <div className="modulos__secao" id="roteiro">

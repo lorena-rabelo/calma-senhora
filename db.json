@@ -190,26 +190,6 @@
           ]
         },
         {
-          "name": "processadores",
-          "artigos": [
-            {
-              "tag": "HTML",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            },
-            {
-              "tag": "HTML",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            },
-            {
-              "tag": "UX",
-              "texto": "artigo sobre HTML 1",
-              "link": "https://www.homehost.com.br/blog/tutoriais/links-html/"
-            }
-          ]
-        },
-        {
           "name": "assistivas",
           "artigos": [
             {
