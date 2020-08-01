@@ -5,6 +5,7 @@ import './styles.css'
 import Artigo from '../../atoms/Artigo'
 import Api from '../../../services/Api'
 import Repositorios from '../../../services/Repositorios'
+import Imagem from '../../../assets/imagem_compart.png'
 
 
 class ModulosSecao extends Component {
@@ -108,6 +109,7 @@ class ModulosSecao extends Component {
               {/* <Repositorios /> */}
             </>
           ))}
+          {/* <img src={Imagem} ></img> */}
         </div>
       </div>
     )
