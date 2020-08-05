@@ -55,7 +55,7 @@ $ npm run start
 
 ## 📝 Licença
 
-Este projeto está sobe a licença [MIT](./LICENSE).
+Este projeto está sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Lorena Rabelo  👋🏽 [Entre em contato!](https://www.linkedin.com/in/olalorenarabelo/)
 
