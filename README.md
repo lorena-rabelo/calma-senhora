@@ -43,8 +43,8 @@ $ npm run start
 
 ---   
   
-## 👨‍💻 Contribuidores   
-💜 Obrigada à quem contribuiu com o projeto  
+## 👩‍💻 Contribuidores   
+ 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/natalialuizas"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/43760157?s=400&u=280f28bb99ed985034c25ea905f0b389444158b8&v=4" width="100px;" alt="foto do perfil Natalia Luiza"/><br /><sub><b>Natalia Luiza</b></sub></a><br /><a href="https://github.com/natalialuizas">👨‍🚀</a></td>
@@ -61,7 +61,7 @@ $ npm run start
 </table> 
 
 
-## 😯 Como contribuir 
+## 🤝 Como contribuir 
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch para as suas alterações: `git checkout -b add-links-seu-nome`
@@ -77,5 +77,5 @@ $ npm run start
 
 Este projeto está sob a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Lorena Rabelo  👋🏽 [Entre em contato!](https://www.linkedin.com/in/olalorenarabelo/)
+Feito por Lorena Rabelo  👋🏽 [Entre em contato!](https://www.linkedin.com/in/olalorenarabelo/)
 
