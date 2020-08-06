@@ -96,12 +96,17 @@
           ]
         },
         {
-          "name": "git",
+          "name": "git|github",
           "artigos": [
             {
               "tag": "GIT",
               "texto": "Aprenda conceitos de git, não comandos",
               "link": "https://dev.to/paulogoncalvesbh/aprenda-conceitos-de-git-nao-comandos-4il3"
+            },
+            {
+              "tag": "GITHUB",
+              "texto": "Como fazer um bom README",
+              "link": "https://blog.rocketseat.com.br/como-fazer-um-bom-readme/"
             }
           ]
         }
