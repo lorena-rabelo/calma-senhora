@@ -3,9 +3,9 @@ import Modulo from '../../molecules/Modulo'
 import TituloSecao from '../../atoms/TituloSecao'
 import './styles.css'
 import Artigo from '../../atoms/Artigo'
-import Api from '../../../services/Api'
+import api from '../../../services/api'
 import Repositorios from '../../../services/Repositorios'
-import Imagem from '../../../assets/imagem_compart.png'
+
 
 
 class ModulosSecao extends Component {
@@ -28,7 +28,7 @@ class ModulosSecao extends Component {
   }
 
   carregaModulos = async () => {
-    const response = await Api.get(`/modulos`);
+    const response = await api.get(`/modulos`);
     this.setState({ modulos: response.data });
   };
 

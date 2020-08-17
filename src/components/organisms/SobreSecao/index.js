@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import TituloSecao from '../../atoms/TituloSecao'
 import './styles.css'
-import { Link } from "react-router-dom";
+
 
 const SobreSecao = ({ texto }) => {
   return (

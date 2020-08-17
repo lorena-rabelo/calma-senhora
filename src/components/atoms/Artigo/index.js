@@ -4,7 +4,7 @@ import './styles.css'
 const Artigo = ({ sobreLink, link, tag }) => {
   return (
     <div className="artigo">
-      <a href={link} target="_blank" className="artigo__texto">
+      <a href={link} target="_blank" rel="noopener noreferrer" className="artigo__texto">
         <div className="artigo__tag">
           <h3>{tag}</h3>
         </div>
