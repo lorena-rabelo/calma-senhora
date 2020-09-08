@@ -1,6 +1,9 @@
 <img src="https://github.com/lorena-rabelo/calma-senhora/blob/master/banner-github.PNG"  />    
 
-
+![Node Version](https://img.shields.io/badge/node-v14.4.0-green) 
+![NPM Version](https://img.shields.io/badge/npm-6.14.6-green)
+![React Version](https://img.shields.io/badge/react-%5E16.13.1-blueviolet)
+![React-router-dom](https://img.shields.io/badge/react--router--dom-%5E5.2.0-blueviolet)
 <h4 align="center"> 
 	🚧  Calma, senhora 🚀 Em constante construção...  🚧
 </h4>
