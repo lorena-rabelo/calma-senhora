@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 .header {
   background-color: #bd7bb3;
   height: 90vh;
@@ -6,7 +6,7 @@
 }
 
 .header__ilustration {
-  overflow: hidden;  
+  overflow: hidden;
   position: absolute;
   z-index: 100;
   max-height: 120vh;
@@ -16,7 +16,8 @@
 }
 
 @keyframes move {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(30);
   }
   50% {
@@ -32,7 +33,7 @@
 }
 
 h1 {
-  font-family: 'Krona One', sans-serif;
+  font-family: "Krona One", sans-serif;
 }
 
 @media screen and (max-width: 1280px) {
@@ -49,7 +50,7 @@ h1 {
     transform: rotate(20deg);
   }
   .header__text h1 {
-    font-size: 48px
+    font-size: 48px;
   }
   .nav__container ul {
     align-self: center;
@@ -61,14 +62,11 @@ h1 {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 48px
+    font-size: 48px;
   }
   .header__text {
     text-align: center;
-    /* position: absolute; */
     max-width: 400px;
-    /* margin-left: 0; */
-    /* margin-right: 0; */
     margin-top: calc((90vh - 311px) / 2);
     justify-content: center;
     justify-self: center;
