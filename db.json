@@ -40,11 +40,6 @@
                         },
                         {
                             "tag": "HTML",
-                            "texto": "HTML semântico",
-                            "link": "https://www.internetingishard.com/html-and-css/semantic-html/"
-                        },
-                        {
-                            "tag": "HTML",
                             "texto": "Apostila | HTML, CSS e JS | Caelum",
                             "link": "https://www.caelum.com.br/apostila-html-css-javascript/"
                         }
@@ -60,21 +55,6 @@
                         },
                         {
                             "tag": "CSS",
-                            "texto": "5 truques de CSS que vão fazer a diferença no seu site",
-                            "link": "https://medium.com/reprogramabr/5-truques-de-css-que-v%C3%A3o-fazer-a-diferen%C3%A7a-no-seu-site-1e0bba738b78"
-                        },
-                        {
-                            "tag": "CSS",
-                            "texto": "Desvendando o segredo: Como usar position relative e absolute",
-                            "link": "https://medium.com/reprogramabr/como-usar-position-relative-e-absolut-e-ainda-fazer-um-efeito-legalzinho-usando-apenas-css-5be65633482a"
-                        },
-                        {
-                            "tag": "CSS",
-                            "texto": "Um jogo para aprender CSS flexbox",
-                            "link": "https://flexboxfroggy.com/"
-                        },
-                        {
-                            "tag": "CSS",
                             "texto": "Guia do Flexbox | Origamid",
                             "link": "https://origamid.com/projetos/flexbox-guia-completo/"
                         },
@@ -87,11 +67,6 @@
                             "tag": "CSS",
                             "texto": "Usando Media Queries",
                             "link": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries"
-                        },
-                        {
-                            "tag": "CSS",
-                            "texto": "Baixe um navegador que facilita o desenvolvimento responsivo",
-                            "link": "https://responsively.app/"
                         }
                     ]
                 },
@@ -147,11 +122,6 @@
                         },
                         {
                             "tag": "JS",
-                            "texto": "Entendendo escopos no JavaScript",
-                            "link": "https://medium.com/reprogramabr/entendendo-escopos-no-javascript-5cd474c932c3"
-                        },
-                        {
-                            "tag": "JS",
                             "texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome",
                             "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"
                         }
@@ -167,11 +137,6 @@
                 {
                     "name": "bootstrap",
                     "artigos": [
-                        {
-                            "tag": "BOOTS.",
-                            "texto": "Site oficial | Bootstrap",
-                            "link": "https://getbootstrap.com.br/"
-                        },
                         {
                             "tag": "BOOTS.",
                             "texto": "Bootstrap: saiba neste guia para iniciantes o que é, por que e como usá-lo",
@@ -192,11 +157,6 @@
                 {
                     "name": "assistivas",
                     "artigos": [
-                        {
-                            "tag": "ACESSIB.",
-                            "texto": "Acessibilidade Digital como cultura: Daltonismo e Dislexia",
-                            "link": "https://brasil.uxdesign.cc/acessibilidade-digital-como-cultura-daltonismo-e-dislexia-16939161d517"
-                        },
                         {
                             "tag": "ACESSIB.",
                             "texto": "Tudo (ou quase tudo) que você deveria ler sobre acessibilidade",
@@ -248,11 +208,6 @@
                             "tag": "REACT",
                             "texto": "React do zero: ciclo de vida, stateless components e arquitetura flux",
                             "link": "https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/"
-                        },
-                        {
-                            "tag": "REACT",
-                            "texto": "Por que acesso direto ao DOM deve ser evitado em projetos com Virtual DOM",
-                            "link": "https://medium.com/roliveiradev/por-que-getelementbyid-deve-ser-evitado-6b0d35d055fe"
                         }
                     ]
                 }
