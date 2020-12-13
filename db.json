@@ -1,264 +1,262 @@
 {
-  "modulos": [
-    {
-      "id": 1,
-      "numero": "I",
-      "nome": "Introdução ao UX | HTML e CSS | GitHub | Web Design Responsivo",
-      "materias": [
+    "modulos": [
         {
-          "name": "ux",
-          "artigos": [
-            {
-              "tag": "UX",
-              "texto": "Os diferentes tipos e funções dos Protótipos",
-              "link": "https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4"
-            },
-            {
-              "tag": "UX",
-              "texto": "Um jogo para entender a importância do UX",
-              "link": "https://userinyerface.com/"
-            },
-            {
-              "tag": "UX",
-              "texto": "Apostila | UX e Usabilidade aplicados em mobile e web | Caelum",
-              "link": "https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/"
-            }
-          ]
+            "id": 1,
+            "numero": "I",
+            "nome": "Introdução ao UX | HTML e CSS | GitHub | Web Design Responsivo",
+            "materias": [
+                {
+                    "name": "ux",
+                    "artigos": [
+                        {
+                            "tag": "UX",
+                            "texto": "Os diferentes tipos e funções dos Protótipos",
+                            "link": "https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4"
+                        },
+                        {
+                            "tag": "UX",
+                            "texto": "Um jogo para entender a importância do UX",
+                            "link": "https://userinyerface.com/"
+                        },
+                        {
+                            "tag": "UX",
+                            "texto": "Apostila | UX e Usabilidade aplicados em mobile e web | Caelum",
+                            "link": "https://www.caelum.com.br/apostila-ux-usabilidade-mobile-web/"
+                        }
+                    ]
+                },
+                {
+                    "name": "html",
+                    "artigos": [
+                        {
+                            "tag": "HTML",
+                            "texto": "Uma introdução amigável ao desenvolvimento web",
+                            "link": "https://www.internetingishard.com/html-and-css/introduction/"
+                        },
+                        {
+                            "tag": "HTML",
+                            "texto": "Estruturas básicas da web",
+                            "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"
+                        },
+                        {
+                            "tag": "HTML",
+                            "texto": "HTML semântico",
+                            "link": "https://www.internetingishard.com/html-and-css/semantic-html/"
+                        },
+                        {
+                            "tag": "HTML",
+                            "texto": "Apostila | HTML, CSS e JS | Caelum",
+                            "link": "https://www.caelum.com.br/apostila-html-css-javascript/"
+                        }
+                    ]
+                },
+                {
+                    "name": "css",
+                    "artigos": [
+                        {
+                            "tag": "CSS",
+                            "texto": "6 Dicas de CSS para iniciantes",
+                            "link": "https://medium.com/reprogramabr/6-dicas-de-css-para-iniciantes-5be0c18586f4"
+                        },
+                        {
+                            "tag": "CSS",
+                            "texto": "5 truques de CSS que vão fazer a diferença no seu site",
+                            "link": "https://medium.com/reprogramabr/5-truques-de-css-que-v%C3%A3o-fazer-a-diferen%C3%A7a-no-seu-site-1e0bba738b78"
+                        },
+                        {
+                            "tag": "CSS",
+                            "texto": "Desvendando o segredo: Como usar position relative e absolute",
+                            "link": "https://medium.com/reprogramabr/como-usar-position-relative-e-absolut-e-ainda-fazer-um-efeito-legalzinho-usando-apenas-css-5be65633482a"
+                        },
+                        {
+                            "tag": "CSS",
+                            "texto": "Um jogo para aprender CSS flexbox",
+                            "link": "https://flexboxfroggy.com/"
+                        },
+                        {
+                            "tag": "CSS",
+                            "texto": "Guia do Flexbox | Origamid",
+                            "link": "https://origamid.com/projetos/flexbox-guia-completo/"
+                        },
+                        {
+                            "tag": "CSS",
+                            "texto": "Um jogo para aprender seletores CSS (em inglês)",
+                            "link": "http://flukeout.github.io/#"
+                        },
+                        {
+                            "tag": "CSS",
+                            "texto": "Usando Media Queries",
+                            "link": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries"
+                        },
+                        {
+                            "tag": "CSS",
+                            "texto": "Baixe um navegador que facilita o desenvolvimento responsivo",
+                            "link": "https://responsively.app/"
+                        }
+                    ]
+                },
+                {
+                    "name": "git|github",
+                    "artigos": [
+                        {
+                            "tag": "GIT",
+                            "texto": "Aprenda conceitos de git, não comandos",
+                            "link": "https://dev.to/paulogoncalvesbh/aprenda-conceitos-de-git-nao-comandos-4il3"
+                        },
+                        {
+                            "tag": "GITHUB",
+                            "texto": "Como fazer um bom README",
+                            "link": "https://blog.rocketseat.com.br/como-fazer-um-bom-readme/"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "name": "html",
-          "artigos": [
-            {
-              "tag": "HTML",
-              "texto": "Uma introdução amigável ao desenvolvimento web",
-              "link": "https://www.internetingishard.com/html-and-css/introduction/"
-            },
-            {
-              "tag": "HTML",
-              "texto": "Estruturas básicas da web",
-              "link": "https://www.internetingishard.com/html-and-css/basic-web-pages/"
-            },
-            {
-              "tag": "HTML",
-              "texto": "HTML semântico",
-              "link": "https://www.internetingishard.com/html-and-css/semantic-html/"
-            },
-            {
-              "tag": "HTML",
-              "texto": "Apostila | HTML, CSS e JS | Caelum",
-              "link": "https://www.caelum.com.br/apostila-html-css-javascript/"
-            }
-          ]
+            "id": 2,
+            "numero": "II",
+            "nome": "Lógica de Programação | Javascript",
+            "materias": [
+                {
+                    "name": "logica",
+                    "artigos": [
+                        {
+                            "tag": "LÓGICA",
+                            "texto": "Como elaborar uma boa lógica de programação",
+                            "link": "https://medium.com/reprogramabr/como-elaborar-uma-boa-l%C3%B3gica-de-programa%C3%A7%C3%A3o-632cd4f16dd3"
+                        },
+                        {
+                            "tag": "LÓGICA",
+                            "texto": "Um jogo que testa os principais conceitos por trás dos códigos",
+                            "link": "http://silentteacher.toxicode.fr/"
+                        }
+                    ]
+                },
+                {
+                    "name": "javascript",
+                    "artigos": [
+                        {
+                            "tag": "JS",
+                            "texto": "Livro | Você não sabe JavaScript",
+                            "link": "https://github.com/cezaraugusto/You-Dont-Know-JS"
+                        },
+                        {
+                            "tag": "JS",
+                            "texto": "JavaScript para quem sabe nada de JavaScript",
+                            "link": "https://medium.com/reprogramabr/javascript-pra-quem-sabe-nada-de-javascript-16c0d57a8960"
+                        },
+                        {
+                            "tag": "JS",
+                            "texto": "Entendendo escopos no JavaScript",
+                            "link": "https://medium.com/reprogramabr/entendendo-escopos-no-javascript-5cd474c932c3"
+                        },
+                        {
+                            "tag": "JS",
+                            "texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome",
+                            "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "name": "css",
-          "artigos": [
-            {
-              "tag": "CSS",
-              "texto": "6 Dicas de CSS para iniciantes",
-              "link": "https://medium.com/reprogramabr/6-dicas-de-css-para-iniciantes-5be0c18586f4"
-            },
-            {
-              "tag": "CSS",
-              "texto": "5 truques de CSS que vão fazer a diferença no seu site",
-              "link": "https://medium.com/reprogramabr/5-truques-de-css-que-v%C3%A3o-fazer-a-diferen%C3%A7a-no-seu-site-1e0bba738b78"
-            },
-            {
-              "tag": "CSS",
-              "texto": "Desvendando o segredo: Como usar position relative e absolute",
-              "link": "https://medium.com/reprogramabr/como-usar-position-relative-e-absolut-e-ainda-fazer-um-efeito-legalzinho-usando-apenas-css-5be65633482a"
-            },
-            {
-              "tag": "CSS",
-              "texto": "Um jogo para aprender CSS flexbox",
-              "link": "https://flexboxfroggy.com/"
-            },
-            {
-              "tag": "CSS",
-              "texto": "Guia do Flexbox | Origamid",
-              "link": "https://origamid.com/projetos/flexbox-guia-completo/"
-            },
-            {
-              "tag": "CSS",
-              "texto": "Um jogo para aprender seletores CSS (em inglês)",
-              "link": "http://flukeout.github.io/#"
-            },
-            {
-              "tag": "CSS",
-              "texto": "Usando Media Queries",
-              "link": "https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries"
-            },
-            {
-              "tag": "CSS",
-              "texto": "Baixe um navegador que facilita o desenvolvimento responsivo",
-              "link": "https://responsively.app/"
-            }
-          ]
+            "id": 3,
+            "numero": "III",
+            "nome": "Pré-processadores | Bootstrap | Tecnologias Assistivas | Scrum",
+            "materias": [
+                {
+                    "name": "bootstrap",
+                    "artigos": [
+                        {
+                            "tag": "BOOTS.",
+                            "texto": "Site oficial | Bootstrap",
+                            "link": "https://getbootstrap.com.br/"
+                        },
+                        {
+                            "tag": "BOOTS.",
+                            "texto": "Bootstrap: saiba neste guia para iniciantes o que é, por que e como usá-lo",
+                            "link": "https://rockcontent.com/blog/bootstrap/"
+                        }
+                    ]
+                },
+                {
+                    "name": "scrum",
+                    "artigos": [
+                        {
+                            "tag": "SCRUM",
+                            "texto": "Método SCRUM — Um resumo de tudo o que você precisa saber",
+                            "link": "https://medium.com/reprogramabr/scrum-um-breve-resumo-f051e1bc06d9"
+                        }
+                    ]
+                },
+                {
+                    "name": "assistivas",
+                    "artigos": [
+                        {
+                            "tag": "ACESSIB.",
+                            "texto": "Acessibilidade Digital como cultura: Daltonismo e Dislexia",
+                            "link": "https://brasil.uxdesign.cc/acessibilidade-digital-como-cultura-daltonismo-e-dislexia-16939161d517"
+                        },
+                        {
+                            "tag": "ACESSIB.",
+                            "texto": "Tudo (ou quase tudo) que você deveria ler sobre acessibilidade",
+                            "link": "http://acessibilida.de/?source=post_page---------------------------"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "name": "git|github",
-          "artigos": [
-            {
-              "tag": "GIT",
-              "texto": "Aprenda conceitos de git, não comandos",
-              "link": "https://dev.to/paulogoncalvesbh/aprenda-conceitos-de-git-nao-comandos-4il3"
-            },
-            {
-              "tag": "GITHUB",
-              "texto": "Como fazer um bom README",
-              "link": "https://blog.rocketseat.com.br/como-fazer-um-bom-readme/"
-            }
-          ]
+            "id": 4,
+            "numero": "IV",
+            "nome": "Javascript | React",
+            "materias": [
+                {
+                    "name": "javascript",
+                    "artigos": [
+                        {
+                            "tag": "JS",
+                            "texto": "Função Arrastar e soltar nativa do HTML5 (drag and drop)",
+                            "link": "https://www.html5rocks.com/pt/tutorials/dnd/basics/"
+                        },
+                        {
+                            "tag": "JS",
+                            "texto": "Usando foreach(), map(), filter(), reduce()",
+                            "link": "https://talitaoliveira.netlify.app/como-e-quando-usar-foreach-map-filter-reduce/"
+                        },
+                        {
+                            "tag": "JS",
+                            "texto": "Como usar o Reduce? Convertendo arrays em outros tipos",
+                            "link": "https://www.youtube.com/watch?v=O_bSjsLga48&feature=youtu.be"
+                        },
+                        {
+                            "tag": "JS",
+                            "texto": "JavaScript antes do framework - 10 dicas",
+                            "link": "https://www.youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt"
+                        }
+                    ]
+                },
+                {
+                    "name": "react",
+                    "artigos": [
+                        {
+                            "tag": "REACT",
+                            "texto": "React do zero: componentização, propriedades e estado",
+                            "link": "https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/"
+                        },
+                        {
+                            "tag": "REACT",
+                            "texto": "React do zero: ciclo de vida, stateless components e arquitetura flux",
+                            "link": "https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/"
+                        },
+                        {
+                            "tag": "REACT",
+                            "texto": "Por que acesso direto ao DOM deve ser evitado em projetos com Virtual DOM",
+                            "link": "https://medium.com/roliveiradev/por-que-getelementbyid-deve-ser-evitado-6b0d35d055fe"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 2,
-      "numero": "II",
-      "nome": "Lógica de Programação | Javascript",
-      "materias": [
-        {
-          "name": "logica",
-          "artigos": [
-            {
-              "tag": "LÓGICA",
-              "texto": "Como elaborar uma boa lógica de programação",
-              "link": "https://medium.com/reprogramabr/como-elaborar-uma-boa-l%C3%B3gica-de-programa%C3%A7%C3%A3o-632cd4f16dd3"
-            },
-            {
-              "tag": "LÓGICA",
-              "texto": "Um jogo que testa os principais conceitos por trás dos códigos",
-              "link": "http://silentteacher.toxicode.fr/"
-            }
-          ]
-        },
-        {
-          "name": "javascript",
-          "artigos": [
-            {
-              "tag": "JS",
-              "texto": "Livro | Você não sabe JavaScript",
-              "link": "https://github.com/cezaraugusto/You-Dont-Know-JS"
-            },
-            {
-              "tag": "JS",
-              "texto": "JavaScript para quem sabe nada de JavaScript",
-              "link": "https://medium.com/reprogramabr/javascript-pra-quem-sabe-nada-de-javascript-16c0d57a8960"
-            },
-            {
-              "tag": "JS",
-              "texto": "Entendendo escopos no JavaScript",
-              "link": "https://medium.com/reprogramabr/entendendo-escopos-no-javascript-5cd474c932c3"
-            },
-            {
-              "tag": "JS",
-              "texto": "Primeiros passos com a ferramenta de depuração do Javascript do Chrome",
-              "link": "https://medium.com/reprogramabr/primeiros-passos-com-a-ferramenta-de-depura%C3%A7%C3%A3o-do-javascript-do-chrome-92e6ba477a3c"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "numero": "III",
-      "nome": "Pré-processadores | Bootstrap | Tecnologias Assistivas | Scrum",
-      "materias": [
-        {
-          "name": "bootstrap",
-          "artigos": [
-            {
-              "tag": "BOOTS.",
-              "texto": "Site oficial | Bootstrap",
-              "link": "https://getbootstrap.com.br/"
-            },
-            {
-              "tag": "BOOTS.",
-              "texto": "Bootstrap: saiba neste guia para iniciantes o que é, por que e como usá-lo",
-              "link": "https://rockcontent.com/blog/bootstrap/"
-            }
-          ]
-        },
-        {
-          "name": "scrum",
-          "artigos": [
-            {
-              "tag": "SCRUM",
-              "texto": "Método SCRUM — Um resumo de tudo o que você precisa saber",
-              "link": "https://medium.com/reprogramabr/scrum-um-breve-resumo-f051e1bc06d9"
-            }
-          ]
-        },
-        {
-          "name": "assistivas",
-          "artigos": [
-            {
-              "tag": "Acessib.",
-              "texto": "Acessibilidade Digital como cultura: Daltonismo e Dislexia",
-              "link": "https://brasil.uxdesign.cc/acessibilidade-digital-como-cultura-daltonismo-e-dislexia-16939161d517"
-            },
-            {
-              "tag": "Acessib.",
-              "texto": "Tudo (ou quase tudo) que você deveria ler sobre acessibilidade",
-              "link": "http://acessibilida.de/?source=post_page---------------------------"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "numero": "IV",
-      "nome": "Javascript | React",
-      "materias": [
-        {
-          "name": "javascript",
-          "artigos": [              
-            {
-              "tag": "JS",
-              "texto": "Função Arrastar e soltar nativa do HTML5 (drag and drop)",
-              "link": "https://www.html5rocks.com/pt/tutorials/dnd/basics/"
-            },      
-            {
-              "tag": "JS",
-              "texto": "Usando foreach(), map(), filter(), reduce()",
-              "link": "https://talitaoliveira.netlify.app/como-e-quando-usar-foreach-map-filter-reduce/"
-            },      
-            {
-              "tag": "JS",
-              "texto": "Como usar o Reduce? Convertendo arrays em outros tipos",
-              "link": "https://www.youtube.com/watch?v=O_bSjsLga48&feature=youtu.be"
-            },      
-            {
-              "tag": "JS",
-              "texto": "JavaScript antes do framework - 10 dicas",
-              "link": "https://www.youtube.com/playlist?list=PL9rc_FjKlX39T78CUANwmdta_d1CgUtMt"
-            }
-          ]
-        },
-        {
-          "name": "react",
-          "artigos": [
-            {
-              "tag": "REACT",
-              "texto": "React do zero: componentização, propriedades e estado",
-              "link": "https://blog.rocketseat.com.br/react-do-zero-componentizacao-propriedades-e-estado/"
-            },
-            {
-              "tag": "REACT",
-              "texto": "React do zero: ciclo de vida, stateless components e arquitetura flux",
-              "link": "https://blog.rocketseat.com.br/react-do-zero-ciclo-de-vida-stateless-components-e-arquitetura-flux/"
-            },            
-            {
-              "tag": "REACT",
-              "texto": "Por que acesso direto ao DOM deve ser evitado em projetos com Virtual DOM",
-              "link": "https://medium.com/roliveiradev/por-que-getelementbyid-deve-ser-evitado-6b0d35d055fe"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
-
-
