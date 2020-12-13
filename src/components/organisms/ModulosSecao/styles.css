@@ -1,6 +1,6 @@
-.modulos__secao {  
+.modulos__secao {
   text-align: center;
-  background-color:  #FFC864;
+  background-color: #ffc864;
   padding: 80px 0;
 }
 
@@ -11,7 +11,7 @@
 .reposReprograma {
   display: flex;
   align-content: center;
-  max-width: 730px;  
+  max-width: 730px;
   margin: 0 auto;
 }
 .reposReprograma--lista {
@@ -28,42 +28,16 @@
   word-wrap: unset;
   flex-shrink: 0;
 }
-.reposReprograma--links:hover{
- cursor: pointer;
- color: #48255a;
+.reposReprograma--links:hover {
+  cursor: pointer;
+  color: #48255a;
 }
 
 @media screen and (max-width: 768px) {
   .modulos__secao--container {
-    max-width: 80%;    
+    max-width: 80%;
   }
 }
-/* .article__container {
-  width: 230px;
-  height: 150px;
-  background-color: #ccc;
-  padding: 15px;
-  display: flex;
-  justify-content: center; 
-}
-
-.article__nametag {
-  background-color: #ff7676;
-  width: 120px;
-  height: 40px;
-  position: absolute;
-  margin-top:-25px;
-  margin-left: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.article__text {  
-  line-height: 28px;
-  font-size: 16px;
- align-self: center;
-} */
 
 .artigos__secao {
   max-width: 730px;

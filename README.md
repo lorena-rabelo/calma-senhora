@@ -1,6 +1,9 @@
 <img src="https://github.com/lorena-rabelo/calma-senhora/blob/master/banner-github.PNG"  />    
 
-
+![Node Version](https://img.shields.io/badge/node-v14.4.0-green) 
+![NPM Version](https://img.shields.io/badge/npm-6.14.6-green)
+![React Version](https://img.shields.io/badge/react-%5E16.13.1-blueviolet)
+![React-router-dom](https://img.shields.io/badge/react--router--dom-%5E5.2.0-blueviolet)
 <h4 align="center"> 
 	🚧  Calma, senhora 🚀 Em constante construção...  🚧
 </h4>
@@ -43,8 +46,8 @@ $ npm run start
 
 ---   
   
-## 👨‍💻 Contribuidores   
-💜 Obrigada à quem contribuiu com o projeto  
+## 👩‍💻 Contribuidores   
+ 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/natalialuizas"><img style="border-radius: 50%" src="https://avatars3.githubusercontent.com/u/43760157?s=400&u=280f28bb99ed985034c25ea905f0b389444158b8&v=4" width="100px" alt="foto do perfil Natalia Luiza"/><br /><sub><b>Natalia Luiza</b></sub></a><br /><a href="https://github.com/natalialuizas">👨‍🚀</a></td>
@@ -61,7 +64,7 @@ $ npm run start
 </table> 
 
 
-## 😯 Como contribuir 
+## 🤝 Como contribuir 
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch para as suas alterações: `git checkout -b add-links-seu-nome`
@@ -77,5 +80,5 @@ $ npm run start
 
 Este projeto está sob a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Lorena Rabelo  👋🏽 [Entre em contato!](https://www.linkedin.com/in/olalorenarabelo/)
+Feito por Lorena Rabelo  👋🏽 [Entre em contato!](https://www.linkedin.com/in/olalorenarabelo/)
 

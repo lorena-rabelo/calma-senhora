@@ -14,7 +14,7 @@
 .artigo__container:hover {
   background-color: transparent;
   border: 2px solid black;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 .artigo__tag {
@@ -39,7 +39,6 @@
   line-height: 28px;
   font-size: 16px;
   align-self: center;
-  /* max-width: 90%; */
 }
 
 .artigo__texto:hover {
